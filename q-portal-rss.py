@@ -3,27 +3,20 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import datetime
 import time
-import sys
+from urllib.parse import urljoin
 
 def get_article_body(url):
-    """記事の詳細ページから本文を抽出する関数"""
+    """記事の詳細ページから本文を抽出する"""
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     }
     try:
-        # サーバーに負荷をかけないよう、取得前に少し待機
         time.sleep(1)
         res = requests.get(url, headers=headers, timeout=15)
         res.raise_for_status()
+        soup = BeautifulSoup(res.text, 'html.parser')
         
-        # HTMLの解析（高速なlxmlを使用。入っていない場合は 'html.parser' に自動で切り替わります）
-        try:
-            soup = BeautifulSoup(res.text, 'lxml')
-        except:
-            soup = BeautifulSoup(res.text, 'html.parser')
-        
-        # Q-Portalの本文が含まれる可能性が高いタグを順番に探す
-        # サイトの構造に合わせて、より具体的なクラス名を追加しています
+        # 本文が入っていそうな場所を特定
         content = (
             soup.find('div', class_='topics-detail-content') or 
             soup.find('div', class_='p-topics-detail__body') or
@@ -32,83 +25,74 @@ def get_article_body(url):
         )
         
         if content:
-            # 不要なタグ（スクリプトやボタンなど）があればここで除去
-            for s in content(['script', 'style', 'nav', 'header', 'footer']):
+            for s in content(['script', 'style']):
                 s.decompose()
             return content.get_text(separator="\n", strip=True)
-        
-        return "本文の抽出に失敗しました（該当するタグが見つかりません）。"
-    
+        return "本文の抽出に失敗しました。"
     except Exception as e:
-        return f"記事の取得中にエラーが発生しました: {e}"
+        return f"記事取得エラー: {e}"
 
 def create_rss():
-    json_url = "https://q-portal.riken.jp/data/topics.json"
+    # 今回はJSONではなく、ブラウザで見ている一覧ページをターゲットにします
+    list_url = "https://q-portal.riken.jp/topics?lang=ja"
+    base_url = "https://q-portal.riken.jp/"
     
-    # 1. FeedGeneratorの初期設定
     fg = FeedGenerator()
-    fg.id("https://q-portal.riken.jp/")
+    fg.id(base_url)
     fg.title("Q-Portal 最新トピックス (全文配信版)")
-    fg.author({'name': 'Aoi Murakami', 'email': 'murakami@example.com'}) # 碧さんの名前をセット
-    fg.link(href="https://q-portal.riken.jp/topics/", rel='alternate')
-    fg.description("量子コンピュータポータルサイト「Q-Portal」の新着情報を本文込みで配信中")
+    fg.link(href=list_url, rel='alternate')
+    fg.description("理研 Q-Portal の新着情報をウェブサイトから直接解析して配信中")
     fg.language('ja')
 
-    # 2. JSONデータの取得（ヘッダーを強化）
     print(f"--- 実行開始: {datetime.datetime.now()} ---")
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Referer": "https://q-portal.riken.jp/topics?lang=ja",
-        "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Referer": base_url,
     }
 
     try:
-        print(f"JSONを取得中: {json_url}")
-        res = requests.get(json_url, headers=headers, timeout=15)
+        print(f"一覧ページを取得中: {list_url}")
+        res = requests.get(list_url, headers=headers, timeout=15)
+        res.raise_for_status()
         
-        # デバッグ情報：ステータスコードを表示
-        print(f"HTTP Status Code: {res.status_code}")
+        soup = BeautifulSoup(res.text, 'html.parser')
         
-        if res.status_code != 200:
-            print("エラー: サーバーから正常なレスポンスが返ってきませんでした。")
-            print(f"Response Body (first 500 chars): {res.text[:500]}")
-            res.raise_for_status()
+        # 記事へのリンク（/topics/数字）を探す
+        # Q-Portalの構造に合わせて、aタグのhrefを全スキャンします
+        articles = []
+        for a_tag in soup.find_all('a', href=True):
+            href = a_tag['href']
+            # 「/topics/」で始まり、かつタイトルっぽいテキストがあるものを抽出
+            if '/topics/' in href and a_tag.get_text(strip=True):
+                full_url = urljoin(base_url, href)
+                title = a_tag.get_text(strip=True)
+                
+                # 重複除外
+                if not any(d['url'] == full_url for d in articles):
+                    articles.append({'title': title, 'url': full_url})
+        
+        print(f"成功: {len(articles)} 件の記事リンクを見つけました。")
 
-        articles = res.json()
-        print(f"成功: {len(articles)} 件の記事を見つけました。")
-
-        # 3. 記事ごとに詳細を取得（最新5件に制限）
+        # 最新5件を処理
         for item in articles[:5]:
-            title = item.get('title', '無題')
-            article_id = item.get('id')
-            article_url = f"https://q-portal.riken.jp/topics/{article_id}"
-            
-            print(f"本文を取得中: {title}")
+            print(f"解析中: {item['title']}")
             
             fe = fg.add_entry()
-            fe.id(str(article_id))
-            fe.title(title)
-            fe.link(href=article_url)
+            fe.id(item['url'])
+            fe.title(item['title'])
+            fe.link(href=item['url'])
             
-            # 詳細ページから本文を取得してセット
-            content_body = get_article_body(article_url)
-            fe.description(content_body)
-            
-            # 日付の設定（JSONに日付がない場合は現在時刻を使用）
+            # 本文を詳細ページから取得
+            body = get_article_body(item['url'])
+            fe.description(body)
             fe.pubDate(datetime.datetime.now(datetime.timezone.utc))
 
-        # 4. ファイル書き出し
         fg.rss_file('feed.xml')
-        print("成功: feed.xml を更新しました。")
+        print("成功: feed.xml を生成しました。")
 
-    except requests.exceptions.JSONDecodeError:
-        print("エラー: 取得したデータがJSON形式ではありませんでした。")
-        print(f"受信データの内容: {res.text[:500]}")
     except Exception as e:
-        print(f"予期せぬエラーが発生しました: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"致命的なエラー: {e}")
 
 if __name__ == "__main__":
     create_rss()
