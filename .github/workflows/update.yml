@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.10'
       - name: Install dependencies
-        run: pip install requests feedgen
+        run: pip install requests feedgen beautifulsoup4 lxml
       - name: Run script
         run: python q-portal-rss.py
       - name: Commit and Push
