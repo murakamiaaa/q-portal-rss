@@ -5,26 +5,22 @@ import datetime
 import time
 import json
 
-def find_longest_string(obj):
-    """辞書やリストの中から、最も長い文字列（＝本文）を探し出す"""
-    longest = ""
-    
+def collect_all_long_strings(obj, min_length=100):
+    """辞書やリストの中から、一定以上の長さの文字列をすべて集める"""
+    texts = []
     if isinstance(obj, str):
-        return obj
+        if len(obj) >= min_length:
+            texts.append(obj)
     elif isinstance(obj, dict):
         for v in obj.values():
-            res = find_longest_string(v)
-            if len(res) > len(longest):
-                longest = res
+            texts.extend(collect_all_long_strings(v, min_length))
     elif isinstance(obj, list):
         for item in obj:
-            res = find_longest_string(item)
-            if len(res) > len(longest):
-                longest = res
-    return longest
+            texts.extend(collect_all_long_strings(item, min_length))
+    return texts
 
 def get_article_body(session, url):
-    """詳細ページのJSONから、最も本文らしい長い文字列を引っこ抜く"""
+    """詳細ページのJSONから、すべての長文ブロックを拾い集めて結合する"""
     try:
         time.sleep(1)
         res = session.get(url, timeout=10)
@@ -34,31 +30,40 @@ def get_article_body(session, url):
         next_data = soup.find('script', id='__NEXT_DATA__')
         if next_data:
             data = json.loads(next_data.string)
-            # JSON全体の中から「最も長い文字列」を抽出
-            raw_content = find_longest_string(data)
+            # JSONの中から100文字以上の文字列をすべて集める
+            all_texts = collect_all_long_strings(data, min_length=100)
             
-            # 200文字以上なら本文とみなす（短すぎたら別のものを探す）
-            if len(raw_content) > 200:
-                # HTMLタグが混じっている場合を考慮して掃除
-                return BeautifulSoup(raw_content, 'html.parser').get_text(separator="\n", strip=True)
+            # 重複を除去しながら結合（順序を維持）
+            seen = set()
+            unique_texts = []
+            for t in all_texts:
+                if t not in seen:
+                    unique_texts.append(t)
+                    seen.add(t)
+            
+            if unique_texts:
+                # 結合してHTMLタグを掃除
+                full_html = "\n\n".join(unique_texts)
+                return BeautifulSoup(full_html, 'html.parser').get_text(separator="\n", strip=True)
 
-        # 2. 予備：もしJSONがダメなら、HTML内の長いdivを探す
-        for tag in soup.find_all(['div', 'article']):
-            if len(tag.get_text()) > 500: # 500文字以上のブロックがあればそれ
-                return tag.get_text(separator="\n", strip=True)
+        # 2. 予備：HTMLの特定タグから直接抽出（JSONがダメな場合）
+        body_tag = soup.find('div', class_='topics-detail-content') or soup.find('article')
+        if body_tag:
+            return body_tag.get_text(separator="\n", strip=True)
 
-        return "本文の特定に失敗しました。サイト構造が大幅に特殊な可能性があります。"
+        return "本文の自動抽出に失敗しました。サイト構造を再確認してください。"
     except Exception as e:
         return f"エラー: {e}"
 
 def create_rss():
+    # 碧さんが見つけた黄金のURL
     api_url = "https://q-portal-editor.riken.jp/api/v1/ja/search/topics?year=&target2=&fields=&category=&info_type=3"
     
     fg = FeedGenerator()
     fg.id("https://q-portal.riken.jp/")
-    fg.title("Q-Portal 最新トピックス (全文配信・完全版)")
+    fg.title("Q-Portal 全文配信 (Ultimate Edition)")
     fg.link(href="https://q-portal.riken.jp/topics/", rel='alternate')
-    fg.description("AIアルゴリズム的な最長文字列抽出により、全文を安定配信中")
+    fg.description("AIアルゴリズムによる全自動テキスト結合により、全文を安定配信中")
     fg.language('ja')
 
     print(f"--- 最終ミッション実行中: {datetime.datetime.now()} ---")
@@ -68,6 +73,7 @@ def create_rss():
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Origin": "https://q-portal.riken.jp",
         "Referer": "https://q-portal.riken.jp/",
+        "Content-Type": "application/json",
     })
 
     try:
@@ -89,7 +95,7 @@ def create_rss():
             fe.pubDate(datetime.datetime.now(datetime.timezone.utc))
 
         fg.rss_file('feed.xml')
-        print("🎉 feed.xml の完全生成に成功しました！")
+        print("🎉 成功: feed.xml の完全生成に成功しました！")
 
     except Exception as e:
         print(f"エラー発生: {e}")
