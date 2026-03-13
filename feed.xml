@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal 最新トピックス</title><link>https://q-portal.riken.jp/topics/</link><description>量子コンピュータの最新情報を5分おきに自動取得しています</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Fri, 13 Mar 2026 17:22:46 +0000</lastBuildDate></channel></rss>
