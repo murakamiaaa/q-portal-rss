@@ -3,79 +3,74 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import datetime
 import time
-import json
 
-def find_longest_string_recursive(obj):
-    """JSONの中から最も長い文字列を執念で探し出す"""
-    longest = ""
-    if isinstance(obj, str):
-        return obj
-    elif isinstance(obj, dict):
-        for v in obj.values():
-            res = find_longest_string_recursive(v)
-            if len(res) > len(longest): longest = res
-    elif isinstance(obj, list):
-        for item in obj:
-            res = find_longest_string_recursive(item)
-            if len(res) > len(longest): longest = res
-    return longest
-
-def get_full_content_from_next_data(html):
-    """Next.jsの内部JSONから全文を救出する"""
-    soup = BeautifulSoup(html, 'html.parser')
-    # Next.js特有のデータタグを探す
-    next_data_tag = soup.find('script', id='__NEXT_DATA__')
+def get_real_full_text(session, article_id):
+    """3つの異なるAPIルートを試して、本文を救出する"""
+    # 候補1: エディター用詳細API (ja)
+    # 候補2: 公開用データAPI (Next.jsデータ)
+    # 候補3: 通常のHTML解析
     
-    if next_data_tag:
+    urls = [
+        f"https://q-portal-editor.riken.jp/api/v1/ja/topics/{article_id}",
+        f"https://q-portal-editor.riken.jp/api/v1/topics/{article_id}",
+    ]
+    
+    for url in urls:
         try:
-            data = json.loads(next_data_tag.string)
-            # JSON全体から一番長い文章（＝本文）を探す
-            full_text = find_longest_string_recursive(data)
-            if len(full_text) > 300: # 300文字以上なら本文とみなす
-                # HTMLタグが混じっていれば掃除
-                return BeautifulSoup(full_text, 'html.parser').get_text(separator="\n", strip=True)
+            time.sleep(1)
+            res = session.get(url, timeout=10)
+            if res.status_code == 200:
+                data = res.json()
+                # JSONの中から「最も長い文字列」を本文と断定して抜く
+                # (理研のAPI構造 data -> topic -> content を想定)
+                content = data.get('data', {}).get('topic', {}).get('content', '')
+                if not content:
+                    # 構造が違う場合、全探索
+                    import json
+                    dump = json.dumps(data, ensure_ascii=False)
+                    import re
+                    matches = re.findall(r'"([^"]{500,})"', dump)
+                    if matches: content = matches[0]
+                
+                if content and len(content) > 300:
+                    return BeautifulSoup(content, 'html.parser').get_text(separator="\n", strip=True)
         except:
-            pass
+            continue
     return None
 
 def create_rss():
-    api_url = "https://q-portal-editor.riken.jp/api/v1/ja/search/topics?year=&target2=&fields=&category=&info_type=3"
+    list_url = "https://q-portal-editor.riken.jp/api/v1/ja/search/topics?year=&target2=&fields=&category=&info_type=3"
     fg = FeedGenerator()
     fg.id("https://q-portal.riken.jp/")
-    fg.title("Q-Portal (Next.js Deep Extract)")
+    fg.title("Q-Portal 全文 (Ultimate)")
     fg.link(href="https://q-portal.riken.jp/topics/", rel='alternate')
-    fg.description("Next.jsの内部ステートを解析して全文を抽出しています")
+    fg.description("APIの深層を同期して全文を抽出中")
 
     session = requests.Session()
     session.headers.update({"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"})
 
     try:
-        res = session.post(api_url, json={}, timeout=15)
+        res = session.post(list_url, json={}, timeout=15)
         articles = res.json().get('data', {}).get('topics', [])
-        print(f"--- 解析開始: {len(articles)}件 ---")
+        print(f"--- 最終ミッション開始: {len(articles)}件 ---")
 
         for item in articles[:10]:
             title = item.get('title', '無題')
-            url = f"https://q-portal.riken.jp/topics/{item.get('id')}"
+            article_id = item.get('id')
             print(f"解析中: {title}")
             
-            time.sleep(1)
-            detail_res = session.get(url, timeout=10)
-            
-            # Next.jsの隠し扉をスキャン
-            full_text = get_full_content_from_next_data(detail_res.text)
+            full_text = get_real_full_text(session, article_id)
             
             fe = fg.add_entry()
-            fe.id(url)
+            fe.id(str(article_id))
             fe.title(title)
-            fe.link(href=url)
+            fe.link(href=f"https://q-portal.riken.jp/topics/{article_id}")
             
             if full_text:
-                print(f"  -> [成功] {len(full_text)}文字を救出！")
+                print(f"  -> 🎉 全文取得成功! ({len(full_text)}文字)")
                 fe.description(full_text)
             else:
-                # それでもダメなら、検索APIの概要を保険にする
-                print(f"  -> [失敗] 概要のみ格納")
+                print(f"  -> 💀 全文取得失敗... 概要のみ")
                 fe.description(item.get('description', '全文取得失敗'))
 
             fe.pubDate(datetime.datetime.now(datetime.timezone.utc))
