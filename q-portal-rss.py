@@ -39,5 +39,5 @@ def create_rss():
     fg.rss_file('feed.xml')
 
 if __name__ == "__main__":
-create_rss()
+    create_rss()
 
