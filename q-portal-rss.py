@@ -7,27 +7,35 @@ import json
 
 def get_article_body_from_api(session, article_id):
     """詳細APIを直接叩いて、クリーンな本文データを取得する"""
-    # 碧さんが見つけたエディター用ドメインの「詳細API」
+    # 碧さんが見つけたエディター用ドメインの詳細API
     detail_api_url = f"https://q-portal-editor.riken.jp/api/v1/ja/topics/{article_id}"
     
     try:
-        time.sleep(1) # 礼儀
-        # 詳細APIはGETで取得できる可能性が高いです
+        time.sleep(1) # サーバーへの礼儀
+        # 詳細APIは GET で取得できる可能性が高いです
         res = session.get(detail_api_url, timeout=10)
-        res.raise_for_status()
         
+        # もしGETでダメ(405)ならPOSTに切り替える自動フォールバック
+        if res.status_code == 405:
+            res = session.post(detail_api_url, json={}, timeout=10)
+            
+        res.raise_for_status()
         data = res.json()
+
         # APIの構造から本文（content）を抽出
         # 構造: data -> topic -> content
-        content_html = data.get('data', {}).get('topic', {}).get('content', '')
+        topic_data = data.get('data', {}).get('topic', {})
+        content_html = topic_data.get('content', '')
         
         if content_html:
-            # HTMLタグを掃除して綺麗なテキストにする
+            # HTMLタグが含まれているので、BeautifulSoupで綺麗なテキストにする
             return BeautifulSoup(content_html, 'html.parser').get_text(separator="\n", strip=True)
-        return "本文データがAPIに含まれていませんでした。"
+        
+        # もし content というキーがなければ、JSON全体から一番長い文字列を探す（念のため）
+        return "詳細APIに本文が含まれていませんでした。"
         
     except Exception as e:
-        return f"詳細APIからの取得に失敗しました: {e}"
+        return f"詳細APIの取得に失敗しました: {e}"
 
 def create_rss():
     # 碧さんが見つけたリスト取得用API
@@ -50,7 +58,7 @@ def create_rss():
     })
 
     try:
-        # 1. 記事リストをPOSTで取得
+        # 1. 記事リストを取得（ここは前回の成功コードと同じPOST）
         res = session.post(list_api_url, json={}, timeout=15)
         res.raise_for_status()
         articles = res.json().get('data', {}).get('topics', [])
@@ -70,7 +78,7 @@ def create_rss():
             fe.title(title)
             fe.link(href=article_url)
             
-            # 【ここが進化】詳細ページ（HTML）ではなく、詳細APIから本文を取る
+            # 【ここが進化】詳細ページ（HTML）ではなく、詳細APIから本文を直接取る
             fe.description(get_article_body_from_api(session, article_id))
             fe.pubDate(datetime.datetime.now(datetime.timezone.utc))
 
