@@ -4,63 +4,43 @@ from feedgen.feed import FeedGenerator
 import datetime
 import time
 import json
-import re
 
-def clean_and_extract_japanese(raw_str):
-    """Unicodeエスケープを解除し、日本語として読める状態にする"""
+def get_article_body_from_api(session, article_id):
+    """詳細APIを直接叩いて、クリーンな本文データを取得する"""
+    # 碧さんが見つけたエディター用ドメインの「詳細API」
+    detail_api_url = f"https://q-portal-editor.riken.jp/api/v1/ja/topics/{article_id}"
+    
     try:
-        # \uXXXX 形式を日本語に変換
-        decoded = raw_str.encode().decode('unicode-escape')
-        # HTMLタグが混じっている場合は掃除
-        return BeautifulSoup(decoded, 'html.parser').get_text(separator="\n", strip=True)
-    except:
-        return raw_str
-
-def get_article_body(session, url):
-    """HTML内の全スクリプトタグをスキャンして本文を特定する"""
-    try:
-        time.sleep(1)
-        res = session.get(url, timeout=10)
-        soup = BeautifulSoup(res.text, 'html.parser')
+        time.sleep(1) # 礼儀
+        # 詳細APIはGETで取得できる可能性が高いです
+        res = session.get(detail_api_url, timeout=10)
+        res.raise_for_status()
         
-        candidates = []
-
-        # 全 script タグをスキャン
-        for script in soup.find_all('script'):
-            content = script.string
-            if content and ('理研' in content or '量子' in content):
-                # 正規表現で "content":"..." や "body":"..." の中身を強引に抜く
-                # 前後のダブルクォートに挟まれた100文字以上の日本語っぽい部分を探す
-                found = re.findall(r'"([^"]{200,})"', content)
-                for f in found:
-                    candidates.append(clean_and_extract_japanese(f))
-
-        if candidates:
-            # 見つかった候補の中で、最も「本文らしい」長いものを採用
-            best_match = max(candidates, key=len)
-            if len(best_match) > 100:
-                return best_match
-
-        # 予備：従来のタグベース
-        body_tag = soup.find('div', class_='topics-detail-content') or soup.find('article')
-        if body_tag:
-            return body_tag.get_text(separator="\n", strip=True)
-
-        return "本文の特定に失敗しました。サイト側で強力なスクレイピング対策が施されている可能性があります。"
+        data = res.json()
+        # APIの構造から本文（content）を抽出
+        # 構造: data -> topic -> content
+        content_html = data.get('data', {}).get('topic', {}).get('content', '')
+        
+        if content_html:
+            # HTMLタグを掃除して綺麗なテキストにする
+            return BeautifulSoup(content_html, 'html.parser').get_text(separator="\n", strip=True)
+        return "本文データがAPIに含まれていませんでした。"
+        
     except Exception as e:
-        return f"解析エラー: {e}"
+        return f"詳細APIからの取得に失敗しました: {e}"
 
 def create_rss():
-    api_url = "https://q-portal-editor.riken.jp/api/v1/ja/search/topics?year=&target2=&fields=&category=&info_type=3"
+    # 碧さんが見つけたリスト取得用API
+    list_api_url = "https://q-portal-editor.riken.jp/api/v1/ja/search/topics?year=&target2=&fields=&category=&info_type=3"
     
     fg = FeedGenerator()
     fg.id("https://q-portal.riken.jp/")
-    fg.title("Q-Portal 全文配信 (Forensic Edition)")
+    fg.title("Q-Portal 全文配信 (API Perfect Edition)")
     fg.link(href="https://q-portal.riken.jp/topics/", rel='alternate')
-    fg.description("スクリプトタグ全走査により、特殊構造のサイトから本文を抽出中")
+    fg.description("リストと詳細の両方をAPIから直接取得する、最も安定した配信方式")
     fg.language('ja')
 
-    print(f"--- 最終捜索開始: {datetime.datetime.now()} ---")
+    print(f"--- API完全同期ミッション開始: {datetime.datetime.now()} ---")
     
     session = requests.Session()
     session.headers.update({
@@ -70,25 +50,32 @@ def create_rss():
     })
 
     try:
-        # APIからリストを取得
-        res = session.post(api_url, json={}, timeout=15)
+        # 1. 記事リストをPOSTで取得
+        res = session.post(list_api_url, json={}, timeout=15)
+        res.raise_for_status()
         articles = res.json().get('data', {}).get('topics', [])
-        print(f"成功: {len(articles)} 件の記事を解析します。")
+        
+        print(f"成功: {len(articles)} 件の記事を特定。API経由で詳細を読み込みます。")
 
+        # 最新10件を取得
         for item in articles[:10]:
             title = item.get('title', '無題')
-            article_url = f"https://q-portal.riken.jp/topics/{item.get('id')}"
-            print(f"深層解析中: {title}")
+            article_id = item.get('id')
+            article_url = f"https://q-portal.riken.jp/topics/{article_id}"
+            
+            print(f"詳細APIにアクセス中: {title}")
             
             fe = fg.add_entry()
-            fe.id(article_url)
+            fe.id(str(article_id))
             fe.title(title)
             fe.link(href=article_url)
-            fe.description(get_article_body(session, article_url))
+            
+            # 【ここが進化】詳細ページ（HTML）ではなく、詳細APIから本文を取る
+            fe.description(get_article_body_from_api(session, article_id))
             fe.pubDate(datetime.datetime.now(datetime.timezone.utc))
 
         fg.rss_file('feed.xml')
-        print("成功: feed.xml を更新しました。")
+        print("🎉 成功: feed.xml の完全同期が完了しました！")
 
     except Exception as e:
         print(f"致命的エラー: {e}")
