@@ -1,12 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Tue, 21 Apr 2026 23:49:30 +0000</lastBuildDate><item><title>巨視的な鏡の量子的重ね合わせを作る新手法を提案</title><link>https://q-portal.riken.jp/topics/3205</link><description>オプトメカ系において、巨視的な鏡の運動量の量子揺らぎが標準量子限界を下回る「運動量スクイーズド状態」が理論的に発見されました。
-この状態は量子制御の新たな可能性を示すとともに、重力によって生じる量子もつれ（重力誘起エンタングルメント）を大きく強化できると期待されます。</description><guid isPermaLink="false">3205</guid><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate></item><item><title>電子を操って原子核の半減期を大きく変える</title><link>https://q-portal.riken.jp/topics/3203</link><description>理化学研究所などの共同研究グループは、励起状態のトリウム229原子核について、周囲の電子数を変えることで半減期が大きく変化することを実証しました。
-特に、1価イオン状態では半減期が約0.46秒となり、中性原子や3価イオンの場合と大きく異なる結果が得られました。
-この差は、従来知られているγ線放出や内部転換では説明できず、電子と原子核の相互作用による新しい壊変過程「電子架橋遷移」の存在を強く示唆しています。</description><guid isPermaLink="false">3203</guid><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate></item><item><title>欧州議員団が和光地区を訪問</title><link>https://q-portal.riken.jp/topics/3215</link><description>欧州議会ITRE委員のユーリ・ラタス議員らが理研和光地区を訪問し、理事長らと量子技術分野を含むEUとの連携について意見交換を行いました。あわせて量子コンピュータ研究センターの研究室も視察しました。</description><guid isPermaLink="false">3215</guid><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate></item><item><title>PsiQuantum、東京大学、三菱ケミカルが日本の量子人材育成を強化するパートナーシップ締結を発表</title><link>https://q-portal.riken.jp/topics/3213</link><description>PsiQuantum、東京大学大学院工学系研究科、三菱ケミカルは、日本の量子人材育成を目的とした新たなパートナーシップを締結しました。新エネルギー・産業技術総合開発機構の支援のもと、フォールトトレラント量子コンピューティング（FTQC）に関する6か月のトレーニングプログラムを実施しています。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 22 Apr 2026 01:08:36 +0000</lastBuildDate><item><title>PsiQuantum、東京大学、三菱ケミカルが日本の量子人材育成を強化するパートナーシップ締結を発表</title><link>https://q-portal.riken.jp/topics/3213</link><description>PsiQuantum、東京大学大学院工学系研究科、三菱ケミカルは、日本の量子人材育成を目的とした新たなパートナーシップを締結しました。新エネルギー・産業技術総合開発機構の支援のもと、フォールトトレラント量子コンピューティング（FTQC）に関する6か月のトレーニングプログラムを実施しています。
 本プログラムには20社以上・80名超が参加し、FTQCの基礎から産業応用、アルゴリズム設計までを学習します。今後は化学・材料分野での共同研究開発を進め、日本の量子エコシステム強化と実用規模量子コンピュータの実現を目指します。</description><guid isPermaLink="false">3213</guid><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate></item><item><title>超伝導量子素子内で発生する新たなタイプの正孔伝導現象を観測</title><link>https://q-portal.riken.jp/topics/3211</link><description>超伝導体中に侵入した水素（プロトン）の量子的挙動は未解明でしたが、九州大学の研究グループは、ジョセフソン接合内でのプロトンのトンネル運動が正孔の多重アンドレエフ伝導を促進し、電気伝導を増加させることを初めて観測しました。さらに、超伝導転移に伴いプロトンのトンネル確率が増大する可能性を示しました。本成果は、量子素子のノイズ源や超伝導特性劣化の起源解明、新たな量子デバイス開発への貢献が期待されます。</description><guid isPermaLink="false">3211</guid><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate></item><item><title>ミュオン触媒核融合を駆動するミュオン分子の直接観測に世界で初めて成功</title><link>https://q-portal.riken.jp/topics/3209</link><description>中部大学と東北大学を中心とする国際共同研究グループは、高分解能X線検出器を用いて、ミュオン触媒核融合（μCF）における反応率を左右するミュオン分子の共鳴状態を世界で初めて直接観測しました。これにより、量子状態ごとの存在比を定量的に明らかにし、従来の理論と実験の不一致を解消しました。さらに、分子生成過程の実像を解明し、μCFの高効率化に向けた基盤を前進させる成果となりました。</description><guid isPermaLink="false">3209</guid><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate></item><item><title>反強磁性体を用いたトンネル磁気抵抗効果の理論予測</title><link>https://q-portal.riken.jp/topics/3217</link><description>東京大学や理研、JSRなどの共同研究により、ノンコリニア反強磁性体Mn₃Snと酸化マグネシウムを用いた磁気トンネル接合（MTJ）を理論設計し、大きなトンネル磁気抵抗（TMR）効果が現れることを第一原理計算で予測した。
 この成果は、反強磁性トンネル接合デバイスの実用化に向けた重要な設計指針となり、高密度・超高速・低消費電力の磁気メモリ開発への応用が期待される。</description><guid isPermaLink="false">3217</guid><pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate></item><item><title>原子核を形作る力の理解に新展開 ハイパー三重水素原子核を世界最高精度測定</title><link>https://q-portal.riken.jp/topics/3221</link><description>ハイパー三重水素のラムダ束縛エネルギーを世界最高精度で測定。
 ハイパー四重水素との同時測定により高精度なエネルギー較正を実現し、従来より強い束縛の可能性を示唆。
 強い力やハイパー核構造の理解を深め、中性子星内部の物質解明にも貢献が期待されます。</description><guid isPermaLink="false">3221</guid><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate></item><item><title>まったく新しいイオンビーム冷却原理の提唱</title><link>https://q-portal.riken.jp/topics/3219</link><description>理研の研究チームは、イオンの価数変化を利用してイオンビームを自律的かつ超高速に冷却する新原理「荷電変換冷却（CEC）」を提案。
 従来は秒単位だった冷却時間を、マイクロ秒で実現できる可能性を示しました。
 高強度・高品質なビーム制御が可能となり、未知の原子核領域の研究進展が期待されます。</description><guid isPermaLink="false">3219</guid><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate></item><item><title>量子もつれ光子を利用した時間分解分光法の提唱</title><link>https://q-portal.riken.jp/topics/3223</link><description>東京大学と電気通信大学の共同研究チームは、量子もつれ光子対を用いた新しい時間分解量子分光法を提案しました。
-この手法は、従来必要だった超短レーザーパルスの精密制御なしで二次元スペクトルを取得できる点と、蛍光検出により特定の信号成分（誘導放出）を選択的に取り出せる点が特徴です。</description><guid isPermaLink="false">3223</guid><pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate></item></channel></rss>
+この手法は、従来必要だった超短レーザーパルスの精密制御なしで二次元スペクトルを取得できる点と、蛍光検出により特定の信号成分（誘導放出）を選択的に取り出せる点が特徴です。</description><guid isPermaLink="false">3223</guid><pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate></item><item><title>【NEDO量子懸賞金事業_Season2】解決案募集開始のご案内</title><link>https://q-portal.riken.jp/topics/3229</link><description>平素よりお世話になっております。NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局です。
+この度、「NEDO懸賞金活用型プログラム／量子コンピュータを用いた社会問題ソリューション開発2」（以下、NEDO量子懸賞金事業_Season2）では、2026年4月20日より研究開発環境利用希望者の募集を開始いたしました。
+本事業は量子コンピュータのユースケース開発に向け、優れた研究成果を創出された方へ総額約2億円の賞金を授与するコンテスト形式の事業です。2024年度から開始した「NEDO量子懸賞金事業_Season1」に引き続き、その第二弾にあたる2026年度開始の「NEDO量子懸賞金事業_Season2」においても、研究開発のための計算機やそれを制御するソフトウエアを含めた研究開発環境をNEDOで用意し、課題解決への優れたアイデア（解決案）に対して環境を無償で提供いたします。（「NEDO量子懸賞金事業_Season2」における提供環境は、「NEDO量子懸賞金事業_Season1」とは異なる可能性がございます。）
+最新環境を無償で利用でき、懸賞金獲得に向けた研究成果を創出するうえで重要な機会となりますので、応募要項（懸賞広告）を確認のうえ、是非ご活用ください。
+〇募集内容：研究開発環境の利用希望者を募集します。
+〇応募書類：研究成果を創出する可能性の高い方に環境を利用いただくため、課題解決へのアイデア（解決案）・研究開発計画を提出いただきます。詳細は専用サイト（https://qc-challenge.nedo.go.jp/season_2/）をご確認ください。
+〇募集期間：2026年4月20日ー2026年6月5日正午まで
+〇取り組んでいただきたい課題（懸賞課題）：懸賞広告に数多くの課題を提示しておりますので、その中からチャレンジしたい課題を自由に選択ください。
+これに伴い、各提出書類のフォーマットや記載事項についてご説明するため、解決案募集説明会を実施いたします。
+参加希望の方は、以下のイベント概要を確認のうえ、申込フォームからご応募ください。
+説明会開催後、対面による個別質問を受け付けますので、対面でのご参加も是非ご検討ください。
+◆NEDO量子懸賞金事業_Season2/解決案募集説明会
+〇開催日時：2026年5月14日（木）14:00-15:00
+〇開催形式：ハイブリッド（対面（大手町パークビルディング15F）/オンライン（WebEX）
+〇内容：各種応募フォーマットの説明、個別相談
+〇対象者：解決案募集への応募を検討されている皆様
+〇申込期限：2026年5月8日（金）
+▼申込フォーム▼
+ご参加をご希望の方は下記リンクよりお申し込みください。
+リンク：https://pwc-asiamc.webex.com/weblink/register/r6cd797cdf857ce0d09318675fdee3add
+上記の説明会についてお問い合わせがある場合は、事務局までお問い合わせください。
+ご検討のほど、何卒よろしくお願いいたします。
+NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局
+メール : qc-challenge@nedo-challenge.jp
+営業時間：平日9:00-17:00</description><guid isPermaLink="false">3229</guid><pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate></item><item><title>「見えない量子現象」を水の波で再現、予期せぬ波動パターンが明らかに</title><link>https://q-portal.riken.jp/topics/3227</link><description>電子は磁場を通らなくても影響を受ける「アハラノフ・ボーム効果」は、長らく直接観測が難しい現象でした。
+OISTらの研究チームは、水槽内の渦と表面波を用いた流体実験により、この効果を模倣・拡張することに成功。
+その結果、特徴的な波のパターンが可視化され、直感的に理解可能に。</description><guid isPermaLink="false">3227</guid><pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate></item><item><title>"かたち"が及ぼす平衡化への影響ー格子の形による量子多体系の緩和の阻害の新たな機構を発見</title><link>https://q-portal.riken.jp/topics/3225</link><description>ハニカム格子上の量子多体系では、必ずしも平衡化が起こらないことが明らかになりました。その要因として、格子の幾何構造に依存したエネルギー構造が平衡化を阻害する新たな機構が示されました。本成果は、量子多体系の非平衡ダイナミクス理解に新しい視点を与えるとともに、量子状態制御や量子シミュレーションへの応用が期待されます。</description><guid isPermaLink="false">3225</guid><pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate></item></channel></rss>
