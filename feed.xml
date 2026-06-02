@@ -1,10 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Mon, 01 Jun 2026 23:17:43 +0000</lastBuildDate><item><title>最速でα崩壊するテルル104の寿命測定に成功</title><link>https://q-portal.riken.jp/topics/3343</link><description>理化学研究所や東京大学などの国際共同研究グループは、極めて寿命の短い放射性同位体「テルル104（104Te）」のα崩壊を初めて直接測定し、半減期が約7.2ナノ秒であることを明らかにしました。
-これは、基底状態からα崩壊する原子核として史上最速の崩壊です。
-さらに、104Teではα粒子の形成確率が既知の原子核の中で最も高く、従来の約2倍に達することも判明しました。</description><guid isPermaLink="false">3343</guid><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate></item><item><title>JAL、A*Quantumへ出資し量子技術で全社DXと業務変革を推進</title><link>https://q-portal.riken.jp/topics/3341</link><description>～整備領域での実運用を踏まえ、量子技術を活用した生産性向上と新規事業創出を目指す～</description><guid isPermaLink="false">3341</guid><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate></item><item><title>Ｚ型に曲げられる新型スピン波導波路を発明</title><link>https://q-portal.riken.jp/topics/3339</link><description>東北大学などの国際共同研究グループは、スピン波を効率よく伝える新原理の導波路構造を発明しました。
-磁性ガーネット膜上に、六角形配置の穴と溝を持つ銅膜を組み合わせた「二次元マグノニック結晶」により、あらゆる方向のスピン波を反射する完全マグノニック・バンド・ギャップを実現しました。
-さらに、この構造を用いたZ字型導波路では、従来比5,000倍以上の強度でスピン波を伝搬できることを確認。スピン波の短い伝搬距離という課題を克服し、低発熱な次世代スピン波集積回路への応用が期待されています。</description><guid isPermaLink="false">3339</guid><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate></item><item><title>東北大学との連携強化に向けた協定を締結し、連携強化シンポジウムを開催</title><link>https://q-portal.riken.jp/topics/3337</link><description>産総研と東北大学は、既存の包括協定を発展させる新たな協定を締結し、「量子」「マテリアル」「半導体・MEMS・スピントロニクス」の3分野で連携を強化することを発表しました。
-また、NanoTerasuや量子・古典融合計算基盤「ABCI-Q」など、先端研究設備の相互利用も推進します。</description><guid isPermaLink="false">3337</guid><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate></item><item><title>コバルトと酸素が生み出す蜂の巣ネットワーク</title><link>https://q-portal.riken.jp/topics/3335</link><description>大阪大学などの研究グループは、ハニカム構造を持つ酸化物材料「NaSbO3」に少量のコバルトを導入し、高品質な薄膜の作製に成功しました。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Tue, 02 Jun 2026 01:39:53 +0000</lastBuildDate><item><title>コバルトと酸素が生み出す蜂の巣ネットワーク</title><link>https://q-portal.riken.jp/topics/3335</link><description>大阪大学などの研究グループは、ハニカム構造を持つ酸化物材料「NaSbO3」に少量のコバルトを導入し、高品質な薄膜の作製に成功しました。
 その結果、コバルト原子が蜂の巣状のハニカム構造を形成し、強磁性的な秩序を示す可能性を発見しました。
 本研究は、希少で高価なルテニウムやイリジウムに依存しない「3d遷移金属」を用いた新たなキタエフ材料探索を前進させる成果であり、将来的な量子情報・量子コンピューティング向け材料開発への応用が期待されています。</description><guid isPermaLink="false">3335</guid><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate></item><item><title>反強磁性体における巨大な磁気光学効果の実証に成功</title><link>https://q-portal.riken.jp/topics/3333</link><description>東京大学や理化学研究所などの研究グループは、磁化を持たない反強磁性体において、「トポロジカル磁気光学効果」を実証しました。
 通常、磁気光学効果には外部磁場や磁化が必要とされますが、本研究ではスピンの立体的な配列によって生じる量子力学的な仮想磁場を利用し、強磁性体に匹敵する大きな効果を確認しました。
@@ -31,4 +26,26 @@ NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局
 メール : qc-challenge@nedo-challenge.jp
 営業時間：平日9:00-17:00</description><guid isPermaLink="false">3349</guid><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate></item><item><title>原子１個を"カメラ"として利用 − 光学顕微鏡の限界を超える分解能で光の強度と偏光を可視化 −</title><link>https://q-portal.riken.jp/topics/3347</link><description>自然科学研究機構 分子科学研究所の研究グループは、光ピンセットで捕捉したほぼ絶対零度の単一ルビジウム原子を「カメラ」として利用する新技術「アトムカメラ」を開発しました。
 この技術では、単一原子を走査型プローブとして動かしながら測定することで、光の強度分布だけでなく偏光分布も100ナノメートル以下の高い空間分解能で可視化できます。これは従来の光学顕微鏡の回折限界を超える性能です。
-本成果により、微細な光構造の観測が可能となり、量子コンピュータや量子センシングなどの量子技術への応用が期待されます。</description><guid isPermaLink="false">3347</guid><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
+本成果により、微細な光構造の観測が可能となり、量子コンピュータや量子センシングなどの量子技術への応用が期待されます。</description><guid isPermaLink="false">3347</guid><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate></item><item><title>【JIJ Quantum Summer Internship】 Quantum Algorithm Researcher</title><link>https://q-portal.riken.jp/topics/3361</link><description>本インターンシップでは、JIJの研究開発チームの一員として、量子アルゴリズムおよび量子ソフトウェアの研究・実装・評価に取り組んでいただきます。実際の研究開発プロジェクトに参画し、量子コンピューティング技術の社会実装に向けた課題解決に挑戦していただくプログラムです。
+募集職種
+◼︎Quantum Algorithm Researcher
+量子アルゴリズムの設計・評価・応用研究に従事いただきます。
+募集要項：
+https://open.talentio.com/r/1/c/j-ij.com/pages/123796
+◼︎Quantum Software Engineer
+量子ソフトウェアの設計・実装・検証に従事いただきます。
+募集要項：
+https://open.talentio.com/r/1/c/j-ij.com/pages/123689
+◼︎プログラム概要
+対象：修士課程・博士課程在籍者
+期間：2026年8月17日（月）～9月14日（月）
+応募締切：2026年7月3日（金）
+形式：リモートワーク中心（一部出社あり）
+報酬：有給
+インターンシップに関する説明会をオンラインで開催します。
+2026年6月17日（水）18:00–19:00
+2026年6月25日（木）18:00–19:00
+量子コンピューティング分野の研究開発に関心をお持ちの方のご応募をお待ちしております。</description><guid isPermaLink="false">3361</guid><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate></item><item><title>ヒステリシス現象の熱力学的記述を確立</title><link>https://q-portal.riken.jp/topics/3359</link><description>熱力学における難問を解決</description><guid isPermaLink="false">3359</guid><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate></item><item><title>磁石の中の熱ゆらぎを“しぼる”ことに成功：マグノンの熱スクイージングを単一モード・二モードで初めて実証</title><link>https://q-portal.riken.jp/topics/3357</link><description>東京大学、理化学研究所、東北大学などの研究グループは、磁性体中のマグノンにおいて、熱ゆらぎを特定の方向に圧縮する「熱スクイージング」の観測に世界で初めて成功しました。
+さらに、磁性薄膜の上下表面に存在する二つのマグノンモード間で相関が生じる「二モード熱スクイージング」を実証し、この状態が室温付近でも維持されることを示しました。
+この成果は、磁気デバイスの低ノイズ化や高精度センシングに加え、量子情報技術や、従来の熱力学の限界を超える高効率な情報熱機関の実現につながる可能性があります。</description><guid isPermaLink="false">3357</guid><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate></item><item><title>東陽テクニカ、量子コンピューティング人材育成の支援を拡大</title><link>https://q-portal.riken.jp/topics/3355</link><description>株式会社東陽テクニカは、2025年12月から実施している学生・教員向けの「量子ジェネラリスト講座」検定の受験料全額補助に加え、2026年6月から「量子エンジニア（ゲート式／アニーリング式）講座」検定も支援対象に追加します。
+これにより、一般社団法人日本量子コンピューティング協会が実施する3つの量子コンピューティング関連検定すべてが補助対象となります。</description><guid isPermaLink="false">3355</guid><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
