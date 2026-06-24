@@ -1,14 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 24 Jun 2026 00:12:47 +0000</lastBuildDate><item><title>自然法則に現れる「自由に選べる数」の由来に迫る</title><link>https://q-portal.riken.jp/topics/3433</link><description>九州大学やCERNなどの国際共同研究グループは、共形場理論に現れる「連続的に調整できるパラメータ（自由な“つまみ”）」の起源を理論的に解明しました。
-研究では、パラメータがわずかに異なる2つの共形場理論を「界面」でつなぎ、その界面を微小に動かした際の応答を解析しました。その結果、理論を変化させる役割を担う局所演算子を構成できることを示し、連続パラメータが理論内部の演算子に由来することを明らかにしました。</description><guid isPermaLink="false">3433</guid><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate></item><item><title>量子HPC連携プラットフォーム向け新スーパーコンピュータ「ROQUO（ろっこう）」運用開始</title><link>https://q-portal.riken.jp/topics/3445</link><description>理化学研究所 計算科学研究センター（R-CCS）は、量子コンピューティングとスーパーコンピュータ（HPC）の連携研究を強化するため、新たなGPUスーパーコンピュータ「ROQUO（ろっこう）」を神戸で運用開始しました。
-ROQUOは、NEDOの「JHPC-quantumプロジェクト」の一環として構築された量子HPC連携プラットフォーム向け計算基盤で、株式会社DTSを中心に開発されました。
-運用前の性能評価では、HPLベンチマークで倍精度演算性能19.80ペタフロップス（PFLOPS）を達成。今後、量子コンピューターとHPCを組み合わせた新たな計算技術や応用研究の加速が期待されています。</description><guid isPermaLink="false">3445</guid><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate></item><item><title>金属らせん磁性体の巻き方制御を直接実証</title><link>https://q-portal.riken.jp/topics/3443</link><description>東北大学などの研究グループは、らせん磁性体における磁気モーメントの巻き方（右巻き・左巻き）を、スピン偏極中性子散乱実験によって直接観測し、試料体積の90%以上（最大99%）で高精度に制御できることを実証しました。
-らせん磁性体の巻き方は「0」と「1」に対応させることができ、新しい磁気メモリへの応用が期待されています。これまで制御状態は電気伝導測定による間接的な確認にとどまっていましたが、本研究により巻き方の制御を直接検証することに成功しました。
-本成果は、巻き方（キラリティー）を情報として利用する次世代磁気メモリ実現に向けた重要な基盤技術となるもので、研究成果は2026年6月16日に米国科学アカデミー紀要（PNAS）に掲載されました。</description><guid isPermaLink="false">3443</guid><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate></item><item><title>強相関電子材料ナノドットの電場による磁化反転を実証</title><link>https://q-portal.riken.jp/topics/3441</link><description>東京科学大学と神奈川県立産業技術総合研究所の研究チームは、マルチフェロイック材料BiFe₀.₉Co₀.₁O₃（BFCO）のナノドットにおいて、電場による磁化反転の実証に成功しました。高精度な磁気計測により、電場印加によってナノドット内部のトポロジカルな分極構造が中心収束型から中心発散型へ変化し、それに伴って面内・面直方向の磁化を制御できることを明らかにしました。
-BFCOは室温で電気分極と磁化が連動して反転する希少なマルチフェロイック材料であり、本成果は電場だけで磁気情報を書き換えられる超低消費電力・不揮発性磁気メモリの実現に向けた重要な前進となります。</description><guid isPermaLink="false">3441</guid><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate></item><item><title>『Q-STAR × Plug and Play』  量子スタートアップ向けアクセラレーションプログラム募集開始</title><link>https://q-portal.riken.jp/topics/3439</link><description>プログラム概要
-日本における量子エコシステムをより一層加速すべく、量子技術を活かした事業展開を図るスタートアップを支援します。3ヶ月のプログラム期間中は、Q-STAR及びシリコンバレー発のアクセラレータであるPlug and Playの専任担当者が、スタートアップが抱える様々な課題に対し、スタートアップファーストの視点を持ちながら、単なる壁打ちに留まらないハンズオンかつテーラーメイドの事業開発支援を行います。</description><guid isPermaLink="false">3439</guid><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate></item><item><title>光・量子飛躍フラッグシッププログラム（Q-LEAP）人材育成プログラム領域（課題C）の公募における採択課題の決定</title><link>https://q-portal.riken.jp/topics/3451</link><guid isPermaLink="false">3451</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>量子スピン鎖における一般化Kramers–Wannier双対性の統一的記述を提案</title><link>https://q-portal.riken.jp/topics/3449</link><description>東京大学物性研究所の研究チームは、量子スピン鎖における一般化されたKramers–Wannier双対性を統一的に扱う新しい理論枠組み「双線形位相写像（BPM）」を提案しました。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 24 Jun 2026 04:37:55 +0000</lastBuildDate><item><title>神はサイコロを振る！？ 高輝度量子もつれ光で量子イメージングの高効率化を実現</title><link>https://q-portal.riken.jp/topics/3437</link><description>神戸大学の研究グループは、高輝度な量子もつれ光を生成できるBiBO結晶を用いた量子イメージング技術を開発し、従来より高効率なイメージングを実現しました。実験では、EPRパラドックスに基づく測定によって空間的な量子もつれを確認し、さらに光子対の同時検出により高次元量子もつれ状態であることも検証しました。加えて、迷光の影響を抑える「量子画像蒸留」を用いて、「シュレディンガーの猫」や「神はサイコロを振らない」といった量子力学のテーマ画像を取得し、その有用性を実証しました。</description><guid isPermaLink="false">3437</guid><pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate></item><item><title>光・量子飛躍フラッグシッププログラム（Q-LEAP）人材育成プログラム領域（課題C）の公募における採択課題の決定</title><link>https://q-portal.riken.jp/topics/3451</link><guid isPermaLink="false">3451</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>量子スピン鎖における一般化Kramers–Wannier双対性の統一的記述を提案</title><link>https://q-portal.riken.jp/topics/3449</link><description>東京大学物性研究所の研究チームは、量子スピン鎖における一般化されたKramers–Wannier双対性を統一的に扱う新しい理論枠組み「双線形位相写像（BPM）」を提案しました。
 BPMでは、双対変換を有限体上の行列として表現することで、格子模型に潜む対称性や非可逆対称性、境界条件のねじれ、アノマリー（量子効果による対称性の破れ）を体系的に解析できます。これにより、自己双対なクディットスピン鎖が一意なギャップ基底状態を持てない条件を厳密に導出しました。
 特に、素数 p 準位のクディット鎖では、「−1が p を法として平方剰余でない場合」にアノマリーが発生し、系はギャップレスになるか基底状態の縮退を持つことを証明しました。最小の例は p=3 で、通常の量子ビット系には見られない非可逆対称性の制約を示しています。</description><guid isPermaLink="false">3449</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>ナノダイヤ中シリコン欠陥、9ケルビンで最高品質の 「単一光子」特性観測に成功</title><link>https://q-portal.riken.jp/topics/3447</link><description>光量子コンピュータや長距離量子暗号通信（量子中継）の実現には、高品質な単一光子を発生できる「単一光子源」の開発が不可欠です。注目されるナノダイヤモンド中のシリコン空孔中心（SiV中心）では、これまで高品質な光子発生特性の観測に極低温（2.3K）が必要でした。
 大阪大学の嶋﨑幸之介特定研究員（当時）、坂本健伍博士後期課程学生、竹内繁樹教授、公立千歳科学技術大学の髙島秀聡准教授らの研究グループは、シリコンイオンを注入したナノダイヤモンド試料を開発し、従来より大幅に高い9Kで高品質な光子発生特性の観測に成功しました。</description><guid isPermaLink="false">3447</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>量子情報･量子生命研究センター(QIQB)研究教育支援基金を設立しました</title><link>https://q-portal.riken.jp/topics/3453</link><description>大阪大学量子情報・量子生命研究センター（QIQB）は、研究・教育活動のさらなる発展と支援体制の強化を目的として、「QIQB研究教育支援基金」を設立しました。
 量子科学技術の国際的な研究拠点として、情報科学と生命科学を融合した独自の学際研究を推進するとともに、多様なパートナーとの連携強化、次世代リーダーの育成、研究成果の社会実装を進めることを目指しています。
-基金は、学際融合研究の発展、国内外の研究交流の促進、若手研究者の育成、そして研究成果の社会還元を支えるために活用されます。</description><guid isPermaLink="false">3453</guid><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate></item><item><title>神はサイコロを振る！？ 高輝度量子もつれ光で量子イメージングの高効率化を実現</title><link>https://q-portal.riken.jp/topics/3437</link><description>神戸大学の研究グループは、高輝度な量子もつれ光を生成できるBiBO結晶を用いた量子イメージング技術を開発し、従来より高効率なイメージングを実現しました。実験では、EPRパラドックスに基づく測定によって空間的な量子もつれを確認し、さらに光子対の同時検出により高次元量子もつれ状態であることも検証しました。加えて、迷光の影響を抑える「量子画像蒸留」を用いて、「シュレディンガーの猫」や「神はサイコロを振らない」といった量子力学のテーマ画像を取得し、その有用性を実証しました。</description><guid isPermaLink="false">3437</guid><pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
+基金は、学際融合研究の発展、国内外の研究交流の促進、若手研究者の育成、そして研究成果の社会還元を支えるために活用されます。</description><guid isPermaLink="false">3453</guid><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate></item><item><title>鉛フリーペロブスカイトで巨大光電流</title><link>https://q-portal.riken.jp/topics/3463</link><description>理化学研究所などの共同研究グループは、鉛を含まない強誘電性ハライドペロブスカイト CsGeI₃ の高品質薄膜の作製に成功しました。
+この薄膜では、電子の量子幾何学効果に由来する「シフト電流」によって、可視光領域で既存材料を1桁以上上回る巨大な光電流応答を観測しました。
+本成果は、環境負荷の低い次世代光電変換材料や高効率な光センサー・太陽電池の開発につながる可能性があります。</description><guid isPermaLink="false">3463</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>シンガポールの量子研究機関と初の多国間覚書を締結しました</title><link>https://q-portal.riken.jp/topics/3461</link><description>大阪大学量子情報・量子生命研究センター（QIQB）は2026年4月、シンガポールの量子研究機関であるIHPC、NSCC、CQTと、多国間では初となる正式な覚書（MoU）を締結しました。これらの機関は、シンガポールの国家量子戦略の中核を担う国立量子コンピューティングハブ（NQCH）を構成しています。
+覚書は「Quantum Industry Day 2026」で発表され、日本・シンガポール両国の政府、研究機関、産業界の関係者が参加しました。また、本締結は日星外交関係樹立60周年（SJ60）の公式記念行事の一環として行われました。
+今後は、共同研究、講義やシンポジウムの共催、研究者交流などを推進し、特に量子コンピュータのミドルウェアや量子・古典ハイブリッド技術を重点分野として連携を強化します。</description><guid isPermaLink="false">3461</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>近藤絶縁体YbB₁₂における磁気音響量子振動の探索</title><link>https://q-portal.riken.jp/topics/3459</link><description>東京理科大学、東京大学、神戸大学などの研究グループは、近藤絶縁体 YbB₁₂（12ホウ化イッテルビウム） における量子振動の起源を調べるため、最大65テスラの強磁場と最低485ミリケルビンの極低温環境で超音波測定を実施しました。
+その結果、これまで報告されていた磁気量子振動（MQO）は確認された一方で、超音波によって検出される磁気音響量子振動（MAQO）は、絶縁体相では観測されず、磁場によって生じる金属相でのみ観測されることが分かりました。</description><guid isPermaLink="false">3459</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>ポスト5G ゲート型量子コンピュータのアルゴリズム開発が可能なハイエンド人材の育成プログラム</title><link>https://q-portal.riken.jp/topics/3457</link><description>「ゲート型量子コンピュータのアルゴリズム開発が可能なハイエンド人材の育成プログラム」（以下、ハイエンド人材育成プログラム）における専門人材育成プログラム（第2期）について、ご案内申し上げます。
+2026年9月～2027年3月にかけてゲート型量子コンピュータアルゴリズム開発の基本となる知識や技術を習得する専門人材育成プログラム（第2期）を実施いたします。
+現在参加者を募集しております。参加希望の方は、以下のプログラム概要を確認のうえ、申込フォームからご応募ください。
+━━━━━━━━━━━━━━━━━━━━
+◆ 専門人材育成プログラム（第2期）概要
+━━━━━━━━━━━━━━━━━━━━
+〇開催日時：2026年9月～2027年3月
+〇実施回数：1回あたり約120分の講義を計20回（前半：基礎編12回、後半：応用編8回）実施
+〇開催形式：オンライン形式（オンデマンド配信）、1週間に1回の頻度で実施
+〇申込期限：2026年8月7日（金）
+▼専門人材育成プログラム（第2期）募集要項
+応募要件や講義のカリキュラム等の詳細は、下記の募集要項をご覧ください
+198bcb_f11407a34bc44f118509e70f4f0bb6af.pdf
+▼専門人材育成プログラム（第2期）申込フォーム
+ご参加をご希望の方は下記リンクよりお申し込みください。
+リンク：https://www.quemix.com/nedopost5g/register
+━━━━━━━━━━━━━━━━━━━━
+◆ 募集説明会のご案内
+━━━━━━━━━━━━━━━━━━━━
+専門人材育成プログラム（第2期）の募集にあたり、説明会を実施いたします。プログラム内容や応募方法についてご説明いたしますので、ご関心のある方はぜひご参加ください。
+〇開催日時：
+・2026年7月16日（木）17:30-18:30
+・2026年7月22日（水）11:30-12:30
+・2026年7月31日（金）17:30-18:30
+〇開催形式：オンライン
+▼説明会申込フォーム
+ご参加をご希望の方は、下記問い合わせフォームの「問い合わせ内容」欄に、「XX月XX日説明会参加希望」と記載のうえ、お申し込みください。
+問い合わせフォーム：https://www.quemix.com/nedopost5g/contactus</description><guid isPermaLink="false">3457</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>コバルトと酸素が生み出す 蜂の巣ネットワーク</title><link>https://q-portal.riken.jp/topics/3455</link><description>大阪大学を中心とする研究グループは、ハニカム（蜂の巣）構造を持つ酸化物 NaSbO₃ に少量のコバルト（Co）を導入した高品質薄膜の作製に成功し、その内部でコバルト原子がハニカム構造を形成して強磁性的な秩序を示す可能性を明らかにしました。
+近年、量子コンピュータや量子情報技術への応用が期待されるキタエフ材料の研究が活発ですが、これまで主流だったルテニウム（Ru）やイリジウム（Ir）などの希少・高価な元素に代わり、地殻中に豊富に存在する3d遷移金属のコバルトを利用した新たな材料開発の道を開く成果となります。
+本研究は、低コストな量子情報デバイスや量子コンピューティング材料の実現につながる可能性を示しており、成果は学術誌『Physical Review Materials』に掲載されました。</description><guid isPermaLink="false">3455</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
