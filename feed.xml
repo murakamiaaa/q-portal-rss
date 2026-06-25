@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 25 Jun 2026 01:51:35 +0000</lastBuildDate><item><title>光・量子飛躍フラッグシッププログラム（Q-LEAP）人材育成プログラム領域（課題C）の公募における採択課題の決定</title><link>https://q-portal.riken.jp/topics/3451</link><guid isPermaLink="false">3451</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>量子スピン鎖における一般化Kramers–Wannier双対性の統一的記述を提案</title><link>https://q-portal.riken.jp/topics/3449</link><description>東京大学物性研究所の研究チームは、量子スピン鎖における一般化されたKramers–Wannier双対性を統一的に扱う新しい理論枠組み「双線形位相写像（BPM）」を提案しました。
-BPMでは、双対変換を有限体上の行列として表現することで、格子模型に潜む対称性や非可逆対称性、境界条件のねじれ、アノマリー（量子効果による対称性の破れ）を体系的に解析できます。これにより、自己双対なクディットスピン鎖が一意なギャップ基底状態を持てない条件を厳密に導出しました。
-特に、素数 p 準位のクディット鎖では、「−1が p を法として平方剰余でない場合」にアノマリーが発生し、系はギャップレスになるか基底状態の縮退を持つことを証明しました。最小の例は p=3 で、通常の量子ビット系には見られない非可逆対称性の制約を示しています。</description><guid isPermaLink="false">3449</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>ナノダイヤ中シリコン欠陥、9ケルビンで最高品質の 「単一光子」特性観測に成功</title><link>https://q-portal.riken.jp/topics/3447</link><description>光量子コンピュータや長距離量子暗号通信（量子中継）の実現には、高品質な単一光子を発生できる「単一光子源」の開発が不可欠です。注目されるナノダイヤモンド中のシリコン空孔中心（SiV中心）では、これまで高品質な光子発生特性の観測に極低温（2.3K）が必要でした。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 25 Jun 2026 05:56:18 +0000</lastBuildDate><item><title>ナノダイヤ中シリコン欠陥、9ケルビンで最高品質の 「単一光子」特性観測に成功</title><link>https://q-portal.riken.jp/topics/3447</link><description>光量子コンピュータや長距離量子暗号通信（量子中継）の実現には、高品質な単一光子を発生できる「単一光子源」の開発が不可欠です。注目されるナノダイヤモンド中のシリコン空孔中心（SiV中心）では、これまで高品質な光子発生特性の観測に極低温（2.3K）が必要でした。
 大阪大学の嶋﨑幸之介特定研究員（当時）、坂本健伍博士後期課程学生、竹内繁樹教授、公立千歳科学技術大学の髙島秀聡准教授らの研究グループは、シリコンイオンを注入したナノダイヤモンド試料を開発し、従来より大幅に高い9Kで高品質な光子発生特性の観測に成功しました。</description><guid isPermaLink="false">3447</guid><pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate></item><item><title>量子情報･量子生命研究センター(QIQB)研究教育支援基金を設立しました</title><link>https://q-portal.riken.jp/topics/3453</link><description>大阪大学量子情報・量子生命研究センター（QIQB）は、研究・教育活動のさらなる発展と支援体制の強化を目的として、「QIQB研究教育支援基金」を設立しました。
 量子科学技術の国際的な研究拠点として、情報科学と生命科学を融合した独自の学際研究を推進するとともに、多様なパートナーとの連携強化、次世代リーダーの育成、研究成果の社会実装を進めることを目指しています。
 基金は、学際融合研究の発展、国内外の研究交流の促進、若手研究者の育成、そして研究成果の社会還元を支えるために活用されます。</description><guid isPermaLink="false">3453</guid><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate></item><item><title>交替磁性ドメインの磁場制御に成功、偏極中性子回折で観測</title><link>https://q-portal.riken.jp/topics/3465</link><description>東京大学物性研究所などの研究グループは、交替磁性体 MnTe において、交替磁性ドメインと結びついた弱強磁性が存在することを実験的に明らかにし、ミリテスラ級の非常に小さな磁場でドメインを反転・制御できることを示しました。
@@ -40,4 +38,19 @@ BPMでは、双対変換を有限体上の行列として表現することで�
 ご参加をご希望の方は、下記問い合わせフォームの「問い合わせ内容」欄に、「XX月XX日説明会参加希望」と記載のうえ、お申し込みください。
 問い合わせフォーム：https://www.quemix.com/nedopost5g/contactus</description><guid isPermaLink="false">3457</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>コバルトと酸素が生み出す 蜂の巣ネットワーク</title><link>https://q-portal.riken.jp/topics/3455</link><description>大阪大学を中心とする研究グループは、ハニカム（蜂の巣）構造を持つ酸化物 NaSbO₃ に少量のコバルト（Co）を導入した高品質薄膜の作製に成功し、その内部でコバルト原子がハニカム構造を形成して強磁性的な秩序を示す可能性を明らかにしました。
 近年、量子コンピュータや量子情報技術への応用が期待されるキタエフ材料の研究が活発ですが、これまで主流だったルテニウム（Ru）やイリジウム（Ir）などの希少・高価な元素に代わり、地殻中に豊富に存在する3d遷移金属のコバルトを利用した新たな材料開発の道を開く成果となります。
-本研究は、低コストな量子情報デバイスや量子コンピューティング材料の実現につながる可能性を示しており、成果は学術誌『Physical Review Materials』に掲載されました。</description><guid isPermaLink="false">3455</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
+本研究は、低コストな量子情報デバイスや量子コンピューティング材料の実現につながる可能性を示しており、成果は学術誌『Physical Review Materials』に掲載されました。</description><guid isPermaLink="false">3455</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>酸化物界面で「リエントラント超伝導」を発見</title><link>https://q-portal.riken.jp/topics/3469</link><description>理化学研究所の国際共同研究グループは、異種酸化物界面で、磁場によって一度消えた超伝導がさらに強い磁場で再び現れる「リエントラント超伝導」を発見しました。通常は磁場で超伝導は失われますが、今回は酸化物界面の2次元電子系でこの特異な現象を確認しました。これまで主に特殊な3次元結晶でしか知られていなかった現象が、人工的に設計した酸化物ヘテロ構造でも実現できることを示した成果です。今後は、磁場下の超伝導を調べる新たな研究基盤として期待されます。</description><guid isPermaLink="false">3469</guid><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item><item><title>【NEDO量子懸賞金事業_Season1】成果物募集期限のご案内（6月30日正午まで）</title><link>https://q-portal.riken.jp/topics/3467</link><description>平素よりお世話になっております。NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局です。
+この度は「NEDO懸賞金活用型プログラム／量子コンピュータを用いた社会問題ソリューション開発」（以下、NEDO量子懸賞金事業_Season1）における成果物募集期限について、ご案内申し上げます。
+NEDO量子懸賞金事業_Season1では、最終成果物を2026年6月1日〜6月30日の期間で募集しており、成果物募集の締切が近づいております。
+応募を予定されている皆様は、下記の募集概要をご覧いただき、期限までに提出いただきますようお願いいたします。
+■ Season1 成果物募集について
+・募集締切：2026年6月30日（火）正午
+・対象：懸賞課題の解決に資する研究開発成果
+※提出期限を過ぎますと審査対象外となり、期限延長はありませんのでご留意ください。
+成果物の提出フォーマットや詳細は、下記専用サイトで公表しております。
+【Season1 専用サイト】
+https://qc-challenge.nedo.go.jp/season_1/
+FAQを最近更新いたしましたので、応募に際してはぜひご確認ください（上記リンクの「事業概要」から「成果物募集説明会」の段をご覧ください）。
+成果物募集に関する動画も、近日中に更新予定です。
+成果物募集に関するご質問は、専用のお問い合わせフォームをご利用ください。
+【成果物募集専用相談窓口フォーム】
+成果物募集専用相談窓口フォーム（https://forms.office.com/pages/responsepage.aspx?id=oJQyUSA-skGpcG0wvxVG-gO08xldPA5GhNyzVAgNH69UOEFMUkg5SVhBQ1VJUjFWUlNGMjlZR1JLVi4u&amp;route=shorturl）</description><guid isPermaLink="false">3467</guid><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
