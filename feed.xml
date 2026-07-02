@@ -1,32 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 01 Jul 2026 23:50:03 +0000</lastBuildDate><item><title>ポスト5G ゲート型量子コンピュータのアルゴリズム開発が可能なハイエンド人材の育成プログラム</title><link>https://q-portal.riken.jp/topics/3457</link><description>「ゲート型量子コンピュータのアルゴリズム開発が可能なハイエンド人材の育成プログラム」（以下、ハイエンド人材育成プログラム）における専門人材育成プログラム（第2期）について、ご案内申し上げます。
-2026年9月～2027年3月にかけてゲート型量子コンピュータアルゴリズム開発の基本となる知識や技術を習得する専門人材育成プログラム（第2期）を実施いたします。
-現在参加者を募集しております。参加希望の方は、以下のプログラム概要を確認のうえ、申込フォームからご応募ください。
-━━━━━━━━━━━━━━━━━━━━
-◆ 専門人材育成プログラム（第2期）概要
-━━━━━━━━━━━━━━━━━━━━
-〇開催日時：2026年9月～2027年3月
-〇実施回数：1回あたり約120分の講義を計20回（前半：基礎編12回、後半：応用編8回）実施
-〇開催形式：オンライン形式（オンデマンド配信）、1週間に1回の頻度で実施
-〇申込期限：2026年8月7日（金）
-▼専門人材育成プログラム（第2期）募集要項
-応募要件や講義のカリキュラム等の詳細は、下記の募集要項をご覧ください
-198bcb_f11407a34bc44f118509e70f4f0bb6af.pdf
-▼専門人材育成プログラム（第2期）申込フォーム
-ご参加をご希望の方は下記リンクよりお申し込みください。
-リンク：https://www.quemix.com/nedopost5g/register
-━━━━━━━━━━━━━━━━━━━━
-◆ 募集説明会のご案内
-━━━━━━━━━━━━━━━━━━━━
-専門人材育成プログラム（第2期）の募集にあたり、説明会を実施いたします。プログラム内容や応募方法についてご説明いたしますので、ご関心のある方はぜひご参加ください。
-〇開催日時：
-・2026年7月16日（木）17:30-18:30
-・2026年7月22日（水）11:30-12:30
-・2026年7月31日（金）17:30-18:30
-〇開催形式：オンライン
-▼説明会申込フォーム
-ご参加をご希望の方は、下記問い合わせフォームの「問い合わせ内容」欄に、「XX月XX日説明会参加希望」と記載のうえ、お申し込みください。
-問い合わせフォーム：https://www.quemix.com/nedopost5g/contactus</description><guid isPermaLink="false">3457</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>コバルトと酸素が生み出す 蜂の巣ネットワーク</title><link>https://q-portal.riken.jp/topics/3455</link><description>大阪大学を中心とする研究グループは、ハニカム（蜂の巣）構造を持つ酸化物 NaSbO₃ に少量のコバルト（Co）を導入した高品質薄膜の作製に成功し、その内部でコバルト原子がハニカム構造を形成して強磁性的な秩序を示す可能性を明らかにしました。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 02 Jul 2026 01:53:25 +0000</lastBuildDate><item><title>コバルトと酸素が生み出す 蜂の巣ネットワーク</title><link>https://q-portal.riken.jp/topics/3455</link><description>大阪大学を中心とする研究グループは、ハニカム（蜂の巣）構造を持つ酸化物 NaSbO₃ に少量のコバルト（Co）を導入した高品質薄膜の作製に成功し、その内部でコバルト原子がハニカム構造を形成して強磁性的な秩序を示す可能性を明らかにしました。
 近年、量子コンピュータや量子情報技術への応用が期待されるキタエフ材料の研究が活発ですが、これまで主流だったルテニウム（Ru）やイリジウム（Ir）などの希少・高価な元素に代わり、地殻中に豊富に存在する3d遷移金属のコバルトを利用した新たな材料開発の道を開く成果となります。
 本研究は、低コストな量子情報デバイスや量子コンピューティング材料の実現につながる可能性を示しており、成果は学術誌『Physical Review Materials』に掲載されました。</description><guid isPermaLink="false">3455</guid><pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate></item><item><title>酸化物界面で「リエントラント超伝導」を発見</title><link>https://q-portal.riken.jp/topics/3469</link><description>理化学研究所の国際共同研究グループは、異種酸化物界面で、磁場によって一度消えた超伝導がさらに強い磁場で再び現れる「リエントラント超伝導」を発見しました。通常は磁場で超伝導は失われますが、今回は酸化物界面の2次元電子系でこの特異な現象を確認しました。これまで主に特殊な3次元結晶でしか知られていなかった現象が、人工的に設計した酸化物ヘテロ構造でも実現できることを示した成果です。今後は、磁場下の超伝導を調べる新たな研究基盤として期待されます。</description><guid isPermaLink="false">3469</guid><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item><item><title>【NEDO量子懸賞金事業_Season1】成果物募集期限のご案内（6月30日正午まで）</title><link>https://q-portal.riken.jp/topics/3467</link><description>平素よりお世話になっております。NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局です。
 この度は「NEDO懸賞金活用型プログラム／量子コンピュータを用いた社会問題ソリューション開発」（以下、NEDO量子懸賞金事業_Season1）における成果物募集期限について、ご案内申し上げます。
@@ -54,4 +27,4 @@ FAQを最近更新いたしましたので、応募に際してはぜひご確�
 研究では、Lindblad型量子マスター方程式を用いて流体中での分子衝突を解析し、相互作用の向きによる効果は打ち消し合う一方で、相互作用の強さに由来する二次的な効果が蓄積して磁化率を増強することを明らかにしました。
 この成果は、従来の平均場理論では扱えなかった「動きながら相互作用する系」の磁気特性を説明する新たな理論的枠組みを示すものであり、有機ラジカルだけでなく、液晶、コロイド、高分子、生体分子などのソフトマターの理解や機能設計への応用が期待されます。</description><guid isPermaLink="false">3481</guid><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate></item><item><title>2次元半導体で発光を電気的に制御</title><link>https://q-portal.riken.jp/topics/3479</link><description>東京大学などの国際共同研究グループは、原子1層の厚さを持つ2次元半導体「単層二硫化モリブデン（MoS₂）」を用い、室温で発光強度を電気的に高効率で制御できる光電子デバイスを開発しました。
 本研究では、ハフニウムナイトライド（HfN）ゲート電極を採用することで、MoS₂中のトリオン生成を効率的に制御し、従来のシリコンゲート構造よりも大幅に高い発光変調効率を達成しました。さらに、プラズモニック共振器を組み合わせることで発光を大きく増強することにも成功しました。
-この成果は、オンチップ光源、可変発光デバイス、集積フォトニクス、光通信デバイスなど、次世代の光電子技術への応用が期待されます。</description><guid isPermaLink="false">3479</guid><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
+この成果は、オンチップ光源、可変発光デバイス、集積フォトニクス、光通信デバイスなど、次世代の光電子技術への応用が期待されます。</description><guid isPermaLink="false">3479</guid><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate></item><item><title>TOPPANと東大先端研、 寄付研究部門「量子ドットイノベーションラボ（TOPPAN）」を開設</title><link>https://q-portal.riken.jp/topics/3483</link><description>TOPPAN株式会社と東京大学先端科学技術研究センターは、2026年7月1日から5年間、寄付研究部門「量子ドットイノベーションラボ（TOPPAN）」を設立します。東京大学の量子ドットや量子光計測に関する研究成果と、TOPPANのナノ粒子合成・応用開発技術を融合し、量子ドットをはじめとするナノマテリアルの基盤研究と産業応用を推進します。あわせて、研究者育成を通じて新たな産業創出と社会実装を目指します。</description><guid isPermaLink="false">3483</guid><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
