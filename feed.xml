@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 15 Jul 2026 23:11:08 +0000</lastBuildDate><item><title>量子ビットを超えて ：ダイヤモンド量子センサーで暗黒物質探索を高精度化</title><link>https://q-portal.riken.jp/topics/3523</link><description>ダイヤモンド中のNV中心を利用した量子センサーにおいて、従来の二準位ではなく三つの量子準位を使う「量子三準位系（qutrit）」として活用することで、暗黒物質探索の感度を大幅に向上できることを示しました。
-この手法では、暗黒物質由来の微弱な信号への応答を強める一方で、環境由来の共通ノイズを抑制できます。特に、アクシオン暗黒物質探索に適用した場合、アクシオンと電子の相互作用に対する観測感度が既存手法と比べて最大約10倍向上する可能性が示されました。
-本成果は、NV中心の量子力学的特性をより有効に活用することで、暗黒物質の正体解明に向けた新たな検出手法を提示するとともに、高次元量子センサーを用いた極めて微弱な基礎物理信号探索の発展に貢献するものです。</description><guid isPermaLink="false">3523</guid><pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate></item><item><title>世界初、NTT Com特許技術を活用した量子コンピューターでも解読出来ない暗号通信を実現</title><link>https://q-portal.riken.jp/topics/3521</link><description>NTTコミュニケーションズは、IOWN PETsの耐量子セキュアトランスポート技術と自社特許技術を組み合わせ、鍵供給を含む通信システム全体で量子コンピューターでも解読できない暗号通信を実現する実証実験に成功。</description><guid isPermaLink="false">3521</guid><pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate></item><item><title>秩序と無秩序の境目でゆらぐ量子の研究</title><link>https://q-portal.riken.jp/topics/3533</link><description>京都産業大学の研究グループは、2次元反強磁性量子臨界点におけるスピンゆらぎを解析し、反強磁性スピン磁化率の温度変化がモード間結合定数の強さによって分類できることを明らかにしました。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 16 Jul 2026 00:09:46 +0000</lastBuildDate><item><title>世界初、NTT Com特許技術を活用した量子コンピューターでも解読出来ない暗号通信を実現</title><link>https://q-portal.riken.jp/topics/3521</link><description>NTTコミュニケーションズは、IOWN PETsの耐量子セキュアトランスポート技術と自社特許技術を組み合わせ、鍵供給を含む通信システム全体で量子コンピューターでも解読できない暗号通信を実現する実証実験に成功。</description><guid isPermaLink="false">3521</guid><pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate></item><item><title>秩序と無秩序の境目でゆらぐ量子の研究</title><link>https://q-portal.riken.jp/topics/3533</link><description>京都産業大学の研究グループは、2次元反強磁性量子臨界点におけるスピンゆらぎを解析し、反強磁性スピン磁化率の温度変化がモード間結合定数の強さによって分類できることを明らかにしました。
 解析の結果、弱結合では熱ゆらぎが支配的となりキュリー則が現れ、強結合ではゼロ点ゆらぎと熱ゆらぎの競合によりキュリーワイス則が現れることを発見しました。
 この分類法は既存の層状導電性化合物にも適用可能であり、高温超伝導体を含む実際の物質の電子物性を理解するための新たな指針となることが期待されます。</description><guid isPermaLink="false">3533</guid><pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate></item><item><title>氷の中でのミュオンの不思議な挙動を解明</title><link>https://q-portal.riken.jp/topics/3531</link><description>J-PARCのミュオンビームを用いた研究で、氷の中のミュオンが示す「量子コヒーレンス」が観測されました。
 ミュオンは水分子中の水素と入れ替わって「MuOH」という特殊な分子を形成します。氷では水分子が結晶構造に固定されるため、ミュオンのスピンが周囲の水素原子核の核スピンからの磁場を感じやすくなります。
@@ -12,6 +10,25 @@
 同社は2026年3月から量子コンピュータ向けレーザ製品を販売しており、今回の出荷は量子通信分野への事業拡大を示すものです。</description><guid isPermaLink="false">3527</guid><pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate></item><item><title>KEK制作の科学映像が第67回科学技術映像祭 文部科学大臣賞を受賞</title><link>https://q-portal.riken.jp/topics/3537</link><description>KEKが制作した映像作品「QuizKnock・須貝が物理学者・村山斉とKEKに潜入！光速の99.999999％の速さを出せる実験施設を調査」が、第67回科学技術映像祭で文部科学大臣賞を受賞しました。
 本作品は、QuizKnockの須貝駿貴さんと宇宙物理学者・村山斉教授が巨大加速器や最先端研究施設を巡り、加速器科学や素粒子物理学の魅力を子どもや若い世代にも分かりやすく紹介しています。</description><guid isPermaLink="false">3537</guid><pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate></item><item><title>超高速量子メモリ動作を引き出す素子設計</title><link>https://q-portal.riken.jp/topics/3535</link><description>東京大学などの研究グループは、反強磁性体 Mn₃Sn 薄膜において、スピン軌道トルク（SOT）による磁気状態のスイッチング機構が、膜厚や放熱性などの素子構造によって制御できることを明らかにしました。
 特に、膜厚を薄くして発熱を抑え、熱を効率よく逃がすことで、ジュール熱に依存する「温度アシスト機構」から、スピン流が反強磁性秩序を直接制御する「内因性機構」へ切り替わることを実証しました。
-この内因性機構は、反強磁性体が持つピコ秒スケールの超高速磁気ダイナミクスを活用できるため、より短い電流パルスでの動作や大幅な省エネルギー化が期待されます。本成果は、超高速・低消費電力の不揮発性メモリ実現に向けた重要な基盤となるものです。</description><guid isPermaLink="false">3535</guid><pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate></item><item><title>次世代放射光源のためのビーム入射用真空チェンバを開発</title><link>https://q-portal.riken.jp/topics/3541</link><description>JASRIと理化学研究所の共同研究グループは、次世代リング型放射光源向けの高性能なビーム入射用真空チェンバを開発しました。
+この内因性機構は、反強磁性体が持つピコ秒スケールの超高速磁気ダイナミクスを活用できるため、より短い電流パルスでの動作や大幅な省エネルギー化が期待されます。本成果は、超高速・低消費電力の不揮発性メモリ実現に向けた重要な基盤となるものです。</description><guid isPermaLink="false">3535</guid><pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate></item><item><title>「流体計測とシミュレーションの『シナジー』で実現するデジタルツインの本質と応用」ワークショップ</title><link>https://q-portal.riken.jp/topics/3543</link><description>このたび弊社では、2026年8月5日（水）に東京大学生産技術研究所にて、流体計測とシミュレーションを活用したデジタルツインに関するワークショップを開催いたします。
+本ワークショップでは、血流シミュレーションと医療診断技術との連携について研究されている東京大学生産技術研究所の大島まり教授、生産技術など現場に近い流体計算に詳しい長谷川洋介教授、QunaSysの研究者、CAE・CFDソフトウェアを提供するベンダーにも登壇いただき、医療、生産技術などの実例を踏まえながら、高精度計算を活用したデジタルツインの未来像と、それに量子コンピュータが果たす役割を議論します。
+ご関心がございましたら、ぜひご参加をご検討いただけますと幸いです。また、社内の関係部署やご関心をお持ちの方にもご案内を共有いただけましたら大変ありがたく存じます。
+開催概要は以下のとおりです。
+イベント名：
+「流体計測とシミュレーションの『シナジー』で実現するデジタルツインの本質と応用」ワークショップ
+日時：
+2026年8月5日（水）15:00～20:00
+講演・討論：15:00～18:00
+懇親会：18:00～20:00
+会場：
+東京大学生産技術研究所 大会議室
+懇親会：レストラン アーペ
+参加費：
+無料
+告知ページ：
+https://qunasys.com/news/posts/20260805-workshop-ai/
+株式会社QunaSys
+渡辺
+E-mail：info@qunasys.com</description><guid isPermaLink="false">3543</guid><pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate></item><item><title>次世代放射光源のためのビーム入射用真空チェンバを開発</title><link>https://q-portal.riken.jp/topics/3541</link><description>JASRIと理化学研究所の共同研究グループは、次世代リング型放射光源向けの高性能なビーム入射用真空チェンバを開発しました。
 次世代放射光源では、ビーム強度を維持するために高頻度の「トップアップ入射」が必要ですが、その際に発生するビームの振動が輝度低下を招くことが課題でした。そこで、ビーム入射用パルス磁石の性能を渦電流で損なわない真空チェンバを新たに設計・試作し、性能を評価しました。
 磁場測定の結果、この真空チェンバはSPring-8-IIで利用実験に影響を与えない「透明なトップアップ入射」を実現できる性能を持つことが確認されました。現在はSPring-8-IIへの実装に向けた詳細設計が進められています。</description><guid isPermaLink="false">3541</guid><pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate></item><item><title>日本の量子産業全体を「知能化」する企業知能インフラ、誕生　「AI Quantum Industry Data Platform」を発表</title><link>https://q-portal.riken.jp/topics/3539</link><description>Tokkyo.AI × リーガルテックVDR × AI Quantum on IDXで、日本の量子産業をAI Native Enterpriseへ</description><guid isPermaLink="false">3539</guid><pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
