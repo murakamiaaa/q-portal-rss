@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 09 Sep 2026 17:45:40 +0000</lastBuildDate><item><title>大規模量子コンピューターシステムに向けたサプライチェーンに関するロードマップを公開</title><link>https://q-portal.riken.jp/topics/3793</link><description>大規模量子コンピューターシステムに向けたサプライチェーンに関するロードマップを公開
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 09 Sep 2026 20:02:35 +0000</lastBuildDate><item><title>大規模量子コンピューターシステムに向けたサプライチェーンに関するロードマップを公開</title><link>https://q-portal.riken.jp/topics/3793</link><description>大規模量子コンピューターシステムに向けたサプライチェーンに関するロードマップを公開
 発表・掲載日：2026年9月3日
 ―（第二報）光方式のサプライチェーン ―
 ポイント
