@@ -1,33 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 24 Sep 2026 00:25:06 +0000</lastBuildDate><item><title>Japan Quantum Week 2026</title><link>https://q-portal.riken.jp/topics/3831</link><description>Japan Quantum Week 2026は、研究者、学生、産業界、政府、教育機関、そして社会をつなぎ、量子技術の未来を共に拓く、全国規模の取り組みです。Quantum Week Japanは、世界各国から、多様な背景と専門性を持つ人々が日本に集い、最先端の研究、国際的な協働、産学連携、人材育成、そして社会との対話を通じて、量子技術の発展とその可能性を切り拓くためのプラットフォームです。
-量子コンピューティング、量子通信・暗号、量子センシングをはじめとする量子技術は、量子力学の原理を基盤として、従来の技術では実現が困難であった、あるいはこれまで不可能とされてきた新たな能力と価値を生み出す可能性を秘めています。その進展は、情報通信、ヘルスケア、材料、エネルギー、環境、金融、製造業など、幅広い産業のみならず、社会のあり方そのものにも大きな変革をもたらすことが期待されています。しかし、その可能性を真に社会の価値へと結びつけるためには、最先端の研究を推進するだけでは十分ではありません。研究者同士の知的交流を深め、次代を担う人材を育み、大学・研究機関・企業の間に新たな連携を築くとともに、量子技術と社会との接点を広げていくことが不可欠です。
-この理念のもと、Japan Quantum Week 2026では、一週間にわたり、多彩な交流と共創の機会を創出します。研究会議や学術シンポジウム、ワークショップ、ネットワーキングイベント、産学連携イベントをはじめ、量子技術の可能性と未来を広く社会の皆様と共有するためのさまざまな企画を展開します。Japan Quantum Week 2026は、単に量子技術を学ぶための一週間ではありません。それは、人と知が出会い、未来へのつながりが生まれる一週間です。研究から産業へ。大学から企業へ。専門家から社会へ。そして、日本から世界へ。学生や若手研究者が、新たな挑戦への一歩を踏み出す。企業が、新たな技術とビジネスの可能性を見いだす。異なる専門分野やセクターが出会い、互いの知見を持ち寄り、新たな価値を共に創り出す。そして、社会全体が量子技術のもたらす未来について、ともに考え、ともに問い、ともに可能性を探究する。Japan Quantum Week 2026は、そのための人と人をつなぎ、知と知を結び、研究と社会をつなぐ一週間です。
-Quantum Innovation 2026、 2026年12月8〜11日、
-ウインクあいち（名古屋市）、 QIH
-タンパク質を用いた量子技術、2026年12月4日・11日、
-東京大学、東京大学
-ユースケース拡大のための量子生命技術検証プラットフォームの構築、2026年12月7日、
-名古屋大学東山キャンパス、名古屋大学
-Q-STAR・G-QuAT共同シンポジウム、2026年12月7日、
-東京ミッドタウン、Q-STAR・G-QuAT
-中性原子量子コンピュータ実験室見学、2026年12月11日、
-分子科学研究所（岡崎市）、分子科学研究所
-Quantum Automotive Day、 2026年12月11日、
-ウインクあいち、QIH（Tentative）
-国産量子コンピュータと量子プログラミング、2026年12月11日、
-ウインクあいち、理研・大阪大学
-Q-STARエグゼクティブセミナー2026、2026年12月11日、
-ウインクあいち、Q-STAR
-量子ネットワーク実現に向けた国際ワークショップ、2026年12月11〜12日、
-名古屋市内、内閣府
-量子暗号装置の認証と社会実装に関する国際ワークショップ、2026年12月12日、
-NICT(小金井市）、NICT
-QI2026/9th IFQMS 固体量子センシングサテライトセミナー、2026年12月14日、
-東京科学大学、東京科学大学（Tentative）
-第3回G-QuATセミナー「Ivo P.Degiovanni博士によるセミナー」、2026年12月14日、
-産総研つくばキャンパス、AIST
-QI2026 サテライトワークショップ Practical Quantum Computing、2026年12月14〜15日、
-大阪大学豊中キャンパス、大阪大学・京都大学</description><guid isPermaLink="false">3831</guid><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate></item><item><title>「科学コミュニケーターと楽しむノーベル賞2026」開催！ ノーベル賞発表の瞬間をともに迎える3日間</title><link>https://q-portal.riken.jp/topics/3833</link><description>日本科学未来館は、ノーベル賞を通して研究の面白さや奥深さを伝えるライブ配信イベント「科学コミュニケーターと楽しむノーベル賞2026」を、2026年10月5日(月)から7日(水)まで開催します。2026年のノーベル賞自然科学3賞の受賞者発表に合わせ、各日17時30分からニコニコ生放送とYouTube Liveでライブ配信を実施します。スウェーデンからの生中継を視聴しながら、視聴者とともに受賞者発表の瞬間を迎えるほか、各賞に関連する研究や注目のトピックを科学コミュニケーターがわかりやすく解説します。</description><guid isPermaLink="false">3833</guid><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate></item><item><title>光のスキルミオンで磁気スキルミオンを操る</title><link>https://q-portal.riken.jp/topics/3835</link><description>光と物質に存在する2種類のスキルミオン「光のスキルミオン」と「磁気スキルミオン」の相互作用を、コンピューターシミュレーションによって理論的に解明しました。光のスキルミオンを磁気スキルミオンに照射すると、回転・スキップ・トロコイド旋回という3種類の特徴的な運動が生じることを発見。さらに、光のスキルミオンのヘリシティを変えることで、磁気スキルミオンのスキップする位置や運動軌道を選択的に制御できることを明らかにしました。これにより、光をピンセットのように使って磁気スキルミオンを捕捉・移動・制御する技術や、光技術と磁気デバイスを融合した次世代情報技術への応用が期待されます。</description><guid isPermaLink="false">3835</guid><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate></item><item><title>産業技術総合研究所と連携し、量子分野の国際人材育成プログラムを実施</title><link>https://q-portal.riken.jp/topics/3837</link><description>筑波大学と産総研は、海外大学の学生を対象とした量子分野の短期受入れプログラム「Quantum Research Camp in TSUKUBA」を9月7～11日の5日間実施しました。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 24 Sep 2026 05:09:53 +0000</lastBuildDate><item><title>光のスキルミオンで磁気スキルミオンを操る</title><link>https://q-portal.riken.jp/topics/3835</link><description>光と物質に存在する2種類のスキルミオン「光のスキルミオン」と「磁気スキルミオン」の相互作用を、コンピューターシミュレーションによって理論的に解明しました。光のスキルミオンを磁気スキルミオンに照射すると、回転・スキップ・トロコイド旋回という3種類の特徴的な運動が生じることを発見。さらに、光のスキルミオンのヘリシティを変えることで、磁気スキルミオンのスキップする位置や運動軌道を選択的に制御できることを明らかにしました。これにより、光をピンセットのように使って磁気スキルミオンを捕捉・移動・制御する技術や、光技術と磁気デバイスを融合した次世代情報技術への応用が期待されます。</description><guid isPermaLink="false">3835</guid><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate></item><item><title>産業技術総合研究所と連携し、量子分野の国際人材育成プログラムを実施</title><link>https://q-portal.riken.jp/topics/3837</link><description>筑波大学と産総研は、海外大学の学生を対象とした量子分野の短期受入れプログラム「Quantum Research Camp in TSUKUBA」を9月7～11日の5日間実施しました。
 本プログラムは、量子分野の人材育成を目的に、海外の優秀な学生に日本の研究・教育環境を体験してもらい、将来的な日本の大学院進学や国内でのキャリア形成につなげることを目指したものです。</description><guid isPermaLink="false">3837</guid><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate></item><item><title>マルチバンチ構造のX線自由電子レーザー光の発生に成功</title><link>https://q-portal.riken.jp/topics/3839</link><description>理研の研究チームは、X線自由電子レーザー（XFEL）施設「SACLA」で、複数の電子ビームを連続的に配置した「マルチバンチ構造」の電子ビームを発生・加速し、マルチバンチXFEL光を生成することに世界で初めて成功しました。
 そのために、電子ビームを任意の時間構造に加工するビームチョッパー装置を開発。8.4ナノ秒間隔で2つの電子バンチを加速し、1バンチあたり0.5mJ、合計1mJのXFEL光を発生させました。
 この成果により、複数のXFEL光を一度に照射する実験や、XFELビームライン1本あたりのパルス繰り返し数の増強などへの活用が期待されます。</description><guid isPermaLink="false">3839</guid><pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate></item><item><title>反強磁性体の表面に、磁石の性質を帯びた奇妙な電子が出現</title><link>https://q-portal.riken.jp/topics/3841</link><description>磁石の性質を持つ「磁性ディラック電子」を初めて直接観測しました。物質表面の磁性が巨大磁場に相当する効果を生み、電子にエネルギーギャップを形成することを実証。外部磁場なしでスピンの向きが揃った「完全スピン偏極電流」の実現につながる成果で、次世代スピントロニクスへの応用が期待されます。</description><guid isPermaLink="false">3841</guid><pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate></item><item><title>220 Kまで局在するクーパー対を発見</title><link>https://q-portal.riken.jp/topics/3845</link><description>北海道大学の研究グループは、ルテニウム酸化物 Ca₂RuO₄ナノ薄膜で、約220 K（−53℃）という高温までクーパー対が局在して存在する「ボースグラス状態」を実証しました。
@@ -39,4 +11,39 @@ QI2026 サテライトワークショップ Practical Quantum Computing、2026�
 この支援を活用し、大阪大学は量子コンピューティング、量子通信・ネットワーク、量子センシングなどを体系的・実践的に学ぶ「量子情報・量子生命研究院（仮称）」の設置を計画しています。
 量子情報科学を軸に、情報科学・物理学・化学・生命科学を横断した博士前期・後期課程の大学院教育を行い、高度な量子人材の育成を目指します。
 文部科学省の設置審査を経て、2028年4月の開設を目指しています。</description><guid isPermaLink="false">3849</guid><pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate></item><item><title>表面の影響を抑え、「結晶本来の性質」に由来する光電流を捉える</title><link>https://q-portal.riken.jp/topics/3851</link><description>東京科学大学の研究チームは、2次元有機・無機ハイブリッドペロブスカイト（2D-OIHP）で、結晶内部の極性に由来する円偏光ガルバノ効果（CPGE）を選択的に観測することに成功しました。
-これにより、分子の種類を選ぶことで、光・電荷・スピンの応答を制御できる新しい光スピントロニクス材料への応用が期待されます。</description><guid isPermaLink="false">3851</guid><pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate></item></channel></rss>
+これにより、分子の種類を選ぶことで、光・電荷・スピンの応答を制御できる新しい光スピントロニクス材料への応用が期待されます。</description><guid isPermaLink="false">3851</guid><pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate></item><item><title>【NEDO量子懸賞金事業_Season2】追加解決案募集開始のご案内（2026年9月28日～10月9日)</title><link>https://q-portal.riken.jp/topics/3853</link><description>平素よりお世話になっております。
+NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局です。
+この度、「NEDO懸賞金活用型プログラム／量子コンピュータを用いた社会問題ソリューション開発2」（以下、NEDO量子懸賞金事業_Season2）では、
+2026年9月28日より、追加の解決案募集として、研究開発環境の利用希望者の募集を開始いたします。
+本事業は量子コンピュータのユースケース開発に向け、優れた研究成果を創出された方へ総額約2億円の賞金を授与するコンテスト形式の事業です。
+2024年度から開始した「NEDO量子懸賞金事業_Season1」に続く第二弾として、2026年度に開始した「NEDO量子懸賞金事業_Season2」においても、
+研究開発に必要な計算機およびそれを制御するソフトウエアを含む研究開発環境をNEDOが用意し、
+課題解決に向けた優れたアイデア（解決案）を提案された方に、当該環境を無償で提供いたします。
+最新の研究開発環境を無償で利用でき、懸賞金獲得につながる研究成果を創出するための貴重な機会となりますので、
+応募要項（懸賞広告）をご確認のうえ、ぜひご応募・ご活用ください。
+〇募集内容：研究開発環境の利用希望者を募集します。
+〇応募書類：研究成果を創出する可能性の高い方に研究開発環境をご利用いただくため、課題解決に向けたアイデア（解決案）をご提出いただきます。
+詳細は、専用サイト（https://qc-challenge.nedo.go.jp/season_2/）をご確認ください。
+〇募集期間：2026年9月28日（月）～2026年10月9日（金）正午（※日本時間）
+〇取り組んでいただきたい課題（懸賞課題）：懸賞広告に多数の課題を提示しておりますので、その中からチャレンジしたい課題を自由にお選びください。
+なお、募集期間中に、追加の懸賞課題が仮公表される予定です。募集期間中も、ぜひ専用サイトをご確認ください。
+これに伴い、量子懸賞金事業の概要、追加解決案募集の内容、
+および成果物募集についてご説明する「追加解決案募集説明会」を開催いたします。
+参加をご希望の方は、以下の開催概要をご確認のうえ、申込フォームよりお申し込みください。
+◆NEDO量子懸賞金事業_Season2/追加解決案募集説明会
+〇開催日時：2026年9月29日（火）16:00-17:00（※日本時間）
+〇開催形式：オンライン開催
+〇内容：量子懸賞金事業について、追加解決案募集について、成果物募集について
+〇対象者：追加解決案募集にご興味・ご関心のある方
+〇申込期限：2026年9月29日（火）15:00（※日本時間）
+▼申込フォーム▼
+参加をご希望の方は、下記リンクよりお申し込みください。
+リンク：https://pwc-asiamc.webex.com/weblink/register/r2a2659f4ab343ef257d2f07ad630a831
+説明会についてご不明な点がございましたら、以下の事務局までお問い合わせください。
+皆様のご応募を心よりお待ちしております。
+何卒よろしくお願い申し上げます。
+NEDO Challenge, “Quantum Computing Solve Social Issues !”事務局
+メール : qc-challenge@nedo-challenge.jp
+営業時間：平日9:00-17:00</description><guid isPermaLink="false">3853</guid><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate></item><item><title>CEATEC 2026 に出展します（2026年10月13日～16日・千葉（幕張メッセ））</title><link>https://q-portal.riken.jp/topics/3855</link><description>理化学研究所計算科学研究センター（R-CCS）は、2026年10月13日～16日に幕張メッセで開催されるCEATEC 2026に出展します。
+「富岳」を運用するR-CCSが、シミュレーション・ビッグデータ解析・AIを融合した最先端研究や、AI・量子・計算を融合した次世代科学研究基盤に向けた取り組みを紹介します。
+会場では、コンファレンス、セミナー、ブース展示を実施します。</description><guid isPermaLink="false">3855</guid><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate></item></channel></rss>
