@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Fri, 30 Oct 2026 01:49:47 +0000</lastBuildDate><item><title>アト秒X線レーザーの生成に成功</title><link>https://q-portal.riken.jp/topics/3979</link><description>東京大学、大阪大学、理化学研究所などの国際共同研究グループが、時間幅100～400アト秒のX線レーザーの生成と精密測定に初めて成功しました。1フェムト秒以下の電子パルスをアンジュレータに通してX線レーザーを生成し、物質から生じる特殊な蛍光の測定と理論計算の比較により、その時間幅を明らかにしました。
-電子の運動はアト秒からフェムト秒という極めて短い時間スケールで起こります。本成果は、原子・分子内部の電子の動きを直接観測する新たな手段となり、物質科学や生物学など幅広い分野への応用が期待されます。</description><guid isPermaLink="false">3979</guid><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item><item><title>70年前に提唱されたAnderson条件に整合するボンド秩序を高圧下で発見</title><link>https://q-portal.riken.jp/topics/3981</link><description>発表のポイント
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Fri, 30 Oct 2026 07:45:44 +0000</lastBuildDate><item><title>70年前に提唱されたAnderson条件に整合するボンド秩序を高圧下で発見</title><link>https://q-portal.riken.jp/topics/3981</link><description>発表のポイント
 約70年前、P. W. Andersonは磁鉄鉱（Fe3O4）の基底状態を考える中で、四面体ごとにFe2+とFe3+が2個ずつ並ぶ規則を提案しました。しかし、この理想的な秩序パターンがそのまま結晶全体に並んだ例は、長く見つかっていませんでした。
 本研究では、CuIr2S4の高圧構造で、この2対2の規則に対応する並びが、電荷そのものではなく短いIr–Ir結合の配置（ボンド秩序）として現れることを発見しました。
 CuIr2S4では、さらに高い圧力で金属化し、超伝導転移温度が18.2 Kに達することが報告されています。これはスピネル化合物として最高値です。今回決定した構造は、高圧下で生じる超伝導の母体を理解するための基盤になります。
@@ -35,4 +34,4 @@ QunaSysとシャープは、次世代電池材料の探索に量子コンピュ�
 本取り組みは、NEDOの量子コンピュータ活用プログラムに採択されたもの。
 2025年度は、材料開発の課題を計算問題に変換する方法や、量子・古典計算の組み合わせ、結果の評価方法を検討。
 その結果、量子計算の材料開発への適用に関する知見を蓄積。
-今後は計算規模の拡大などを進め、実用的な物性予測を目指す。</description><guid isPermaLink="false">3997</guid><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
+今後は計算規模の拡大などを進め、実用的な物性予測を目指す。</description><guid isPermaLink="false">3997</guid><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>「未来」の観測が明らかにする光の量子ダイナミクス</title><link>https://q-portal.riken.jp/topics/3999</link><description>理化学研究所と東京大学などの国際共同研究グループは、過去と未来の観測記録を組み合わせて光の量子状態を推定する「量子状態スムージング」を世界で初めて実証した。</description><guid isPermaLink="false">3999</guid><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
