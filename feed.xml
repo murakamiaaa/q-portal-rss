@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 04 Nov 2026 08:01:24 +0000</lastBuildDate><item><title>極薄イリジウムマンガン層によるスピン輸送の増強</title><link>https://q-portal.riken.jp/topics/3989</link><description>九州大学の研究グループは、磁性体と非磁性体の界面に極薄のイリジウムマンガン（IrMn）合金層を挿入すると、スピン流の伝播効率が向上することを明らかにしました。ナノ構造解析により、その要因がIrMn層の島状構造にあることを解明しました。本成果は、スピン流を活用する低消費電力の次世代情報デバイスの開発に向けた重要な指針となります。</description><guid isPermaLink="false">3989</guid><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>シンガポールのサイバーセキュリティー庁、高機密システムの耐量子暗号への移行指針と補助金を発表</title><link>https://q-portal.riken.jp/topics/3991</link><description>シンガポールのサイバーセキュリティー庁（CSA）は、量子コンピュータによる暗号解読リスクに備え、耐量子計算機暗号（PQC）への移行ガイドラインを発表しました。重要情報インフラ（CII）は2031年まで、その他の機密情報を扱う組織には2035年までの移行完了を求め・推奨し、後者には2027年までの移行計画策定を推奨しています。
-また、企業の移行を支援する補助金制度を設け、PQCの実証や技術課題への対応費用の最大70％を支援します。補助期間は2026年11月1日から2027年10月31日までで、早期のリスク評価と段階的な移行を促しています。</description><guid isPermaLink="false">3991</guid><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>無料参加登録 受付中!! 「量子ジョブフェスタ2026 in 大阪」</title><link>https://q-portal.riken.jp/topics/3993</link><description>本イベントでは、企業24社に加えオブザーバーとして2機関が参加し、最前線で活躍する現役の研究者やエンジニアの方々と直接交流いただける貴重な機会となっております。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 04 Nov 2026 16:10:13 +0000</lastBuildDate><item><title>無料参加登録 受付中!! 「量子ジョブフェスタ2026 in 大阪」</title><link>https://q-portal.riken.jp/topics/3993</link><description>本イベントでは、企業24社に加えオブザーバーとして2機関が参加し、最前線で活躍する現役の研究者やエンジニアの方々と直接交流いただける貴重な機会となっております。
 量子コンピューティング、量子通信、量子計測・センシングなどの分野にご関心のある方はもちろん、将来のキャリアの選択肢として量子産業に興味をお持ちの方は、ぜひご参加ください。
 ―――――――――――――――――――――――――――――――――――
 ■日時：2026年12月3日（木）13:00～17:30（受付開始 12:30）
@@ -31,4 +30,25 @@ QunaSysとシャープは、次世代電池材料の探索に量子コンピュ�
 伸縮可能な基材を利用して原子間隔を制御する独自の手法により、わずか数nmしか離れていない2層の薄膜に、異なる磁化の向きやすさや、互いに直交する磁化容易方向を実現しました。
 この成果は、ナノスケールで原子の疎密が急激に変化する界面の形成を示唆するものです。磁石だけでなく、超伝導体や半導体などへの応用も期待され、フレキシブルエレクトロニクス、高感度センサ、次世代スピントロニクスなど幅広い分野への波及が見込まれます。</description><guid isPermaLink="false">4001</guid><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>「量子コンピュータって何？ ― やさしい解説と超伝導量子コンピュータ実機見学会 ＠まちかね祭」を開催します</title><link>https://q-portal.riken.jp/topics/4003</link><description>量子コンピュータについて初めて学ぶ方にも、楽しみながら理解を深めていただける内容です。ぜひお気軽にご参加ください。</description><guid isPermaLink="false">4003</guid><pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate></item><item><title>エントロピー増大則を量子力学から証明</title><link>https://q-portal.riken.jp/topics/4005</link><description>理化学研究所と東京大学などの共同研究グループは、量子力学から熱力学第二法則の基本原理である「エントロピー増大則」を証明することに初めて成功しました。
 研究グループは、マクロな物理量に基づき、熱平衡状態・熱力学的な操作・エントロピーを量子力学的に定式化しました。これにより、従来は量子力学的な操作と熱力学第二法則の間に生じていた矛盾を解消し、あらゆる熱平衡状態でエントロピー増大則が成立することを示しました。
-本成果は、ミクロな量子力学からマクロな熱力学の法則がどのように生まれるのかを理解する重要な一歩であり、将来的には量子系の制御にも新たな指針を与えると期待されます。</description><guid isPermaLink="false">4005</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item><item><title>The Supercomputing 2026 (SC26)</title><link>https://q-portal.riken.jp/topics/4007</link><description>G-QuATと情報・人間工学領域は共同でThe Supercomputing 2026 (SC26)に、出展</description><guid isPermaLink="false">4007</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>
+本成果は、ミクロな量子力学からマクロな熱力学の法則がどのように生まれるのかを理解する重要な一歩であり、将来的には量子系の制御にも新たな指針を与えると期待されます。</description><guid isPermaLink="false">4005</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item><item><title>The Supercomputing 2026 (SC26)</title><link>https://q-portal.riken.jp/topics/4007</link><description>G-QuATと情報・人間工学領域は共同でThe Supercomputing 2026 (SC26)に、出展</description><guid isPermaLink="false">4007</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item><item><title>【～12/15 募集中】高度量子人材育成プログラム「TAQUMI」 2026年度冬ターム in北九州市のご案内</title><link>https://q-portal.riken.jp/topics/4009</link><description>高度量子人材育成プログラム「TAQUMI」は、NEDO（国立研究開発法人新エネルギー・産業技術総合開発機構）による 「ポスト5G情報通信システム基盤強化研究開発事業」の一環として、株式会社Quanmaticと早稲田大学が共同で企画・開発・運営する短期集中プログラムです。最適化・量子計算技術を「エンドユーザーが使える形」にする実装力・推進力をもった、次世代のリーダーを育成することを目的としています。
+全14回のカリキュラムは、学生・社会人の方が参加しやすいよう、オンライン講義（9回）と対面ハッカソン（5日間）を組み合わせたハイブリッド形式で実施します。2026年度冬タームの対面ハッカソンは、北九州市内で開催します。参加費用は無料です。
+--------------------------------------------------------------
+【高度量子人材育成プログラム TAQUMI（匠）】
+■応募方法
+TAQUMI公式サイト内の応募フォームよりお申し込みください
+https://taqumi.quanmatic.com/2026-winter/apply/
+■参加費
+無料　※旅費支給（条件あり）
+■ハッカソン実施会場
+九州工業大学 戸畑キャンパス・北九州国際会議場（予定）
+■スケジュール
+・募集締切：2026年12月15日
+・選考期間：2026年12月17日〜12月27日
+・オンライン講義（９回）：2027年2月15日〜2月26日（平日13:00-15:00）
+・対面ハッカソン（５日間）：2027年3月1日～3月5日（9:00-17:00、現地開催のみ）
+■対象者
+・最適化・量子計算技術の実務適用を目指す学生・社会人の方
+・量子計算技術を活用したプロジェクト推進を担当するソフトウェアエンジニアの方
+・一気通貫の実践経験を積む機会を得たい若手ソフトウェアエンジニアの方
+※前提として、Pythonによるアプリ開発、日本語によるコミュニケーションが可能な方を対象としています。</description><guid isPermaLink="false">4009</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item><item><title>宇宙線で物体内部を見るミュオグラフィの精度を向上</title><link>https://q-portal.riken.jp/topics/4011</link><description>ミュオンを使った内部密度測定の精度を大幅に向上！
+東京大学などの国際共同研究グループは、2台のテレスコープを同時運用する「リアルタイム正規化法」を実証しました。対象物と空のミュオン計数率の比を用いて気象や太陽活動による強度変動を補正し、従来法で約20％生じていた相対誤差を大幅に低減しました。火山や地下構造物、鉱山、CO₂地中貯留などの長期監視への応用が期待されます。</description><guid isPermaLink="false">4011</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>
