@@ -1,27 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Wed, 04 Nov 2026 21:52:13 +0000</lastBuildDate><item><title>無料参加登録 受付中!! 「量子ジョブフェスタ2026 in 大阪」</title><link>https://q-portal.riken.jp/topics/3993</link><description>本イベントでは、企業24社に加えオブザーバーとして2機関が参加し、最前線で活躍する現役の研究者やエンジニアの方々と直接交流いただける貴重な機会となっております。
-量子コンピューティング、量子通信、量子計測・センシングなどの分野にご関心のある方はもちろん、将来のキャリアの選択肢として量子産業に興味をお持ちの方は、ぜひご参加ください。
-―――――――――――――――――――――――――――――――――――
-■日時：2026年12月3日（木）13:00～17:30（受付開始 12:30）
-■場所：コングレスクエア グラングリーン大阪 グランホール1-3（大阪市北区大深町5番54号 グラングリーン大阪）
-https://osaka.congres-square.jp/grandgreen/access/
-■対象者：高校生、高専生、大学生、大学院生、若手研究者、社会人の方など
-（文系・理系問わずどなたでもご参加いただけます。他分野の技術者の方も歓迎します。）
-■参加費：無料（事前登録制）
-■参加お申込みフォーム （参加締切：11月27日）：
-https://forms.gle/cVdCkbpZN7619aXSA
-■主催：文部科学省 光・量子飛躍フラッグシッププログラム（Q-LEAP）
-■共催：一般社団法人量子フォーラム
-■後援：量子技術イノベーション拠点（QIH）、大阪大学 量子情報・量子生命研究センター
-■実施内容：講演、企業説明ブース、ターゲット別（学生・ポスドク・エンジニア）相談ブース 等
-■参加企業（24社/50音順）：
-アルバック・クライオ株式会社、アンティナ株式会社、NTT株式会社(NTT R&amp;D)、OptQC株式会社、Quapp株式会社
-Qubitcore株式会社、キュエル株式会社、株式会社QunaSys、Quantum Machines、株式会社Quanmatic、株式会社JIJ、タツモ株式会社
-株式会社デンソー、TOPPANホールディングス株式会社、株式会社豊田中央研究所、株式会社Nanofiber Quantum Technologies
-パナソニックホールディングス株式会社、株式会社Fixstars Amplify、富士通株式会社、株式会社Blocq, Inc.、株式会社Yaqumo、LQUOM株式会社
-■オブザーバー参加機関：国立研究開発法人情報通信研究機構、国立研究開発法人量子科学技術研究開発機構
-お問い合わせ先：一般社団法人量子フォーラム 量子ジョブフェスタ事務局
-E-mail：q_jobfesta@qforum.org</description><guid isPermaLink="false">3993</guid><pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate></item><item><title>米メリーランド州でQuantum World Congress（QWC）2026開催、量子分野の国際連携や事業化を議論</title><link>https://q-portal.riken.jp/topics/3995</link><description>2026年9月23～25日、米国メリーランド州で量子分野の国際会議「Quantum World Congress（QWC）2026」が開催され、産業界、政府、軍・安全保障機関、研究機関、投資家などが参加した。</description><guid isPermaLink="false">3995</guid><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>QunaSys、シャープと次世代電池材料探索における量子計算活用を推進</title><link>https://q-portal.riken.jp/topics/3997</link><description>５行くらいで
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Q-Portal (完全フルテキスト配信)</title><link>https://q-portal.riken.jp/topics/</link><description>専用APIからtopic_bodyを直接同期する究極のRSSフィード</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Thu, 05 Nov 2026 01:53:23 +0000</lastBuildDate><item><title>米メリーランド州でQuantum World Congress（QWC）2026開催、量子分野の国際連携や事業化を議論</title><link>https://q-portal.riken.jp/topics/3995</link><description>2026年9月23～25日、米国メリーランド州で量子分野の国際会議「Quantum World Congress（QWC）2026」が開催され、産業界、政府、軍・安全保障機関、研究機関、投資家などが参加した。</description><guid isPermaLink="false">3995</guid><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate></item><item><title>QunaSys、シャープと次世代電池材料探索における量子計算活用を推進</title><link>https://q-portal.riken.jp/topics/3997</link><description>５行くらいで
 QunaSysとシャープは、次世代電池材料の探索に量子コンピューティングを活用する共同研究を推進。
 本取り組みは、NEDOの量子コンピュータ活用プログラムに採択されたもの。
 2025年度は、材料開発の課題を計算問題に変換する方法や、量子・古典計算の組み合わせ、結果の評価方法を検討。
@@ -51,4 +29,4 @@ https://taqumi.quanmatic.com/2026-winter/apply/
 ・量子計算技術を活用したプロジェクト推進を担当するソフトウェアエンジニアの方
 ・一気通貫の実践経験を積む機会を得たい若手ソフトウェアエンジニアの方
 ※前提として、Pythonによるアプリ開発、日本語によるコミュニケーションが可能な方を対象としています。</description><guid isPermaLink="false">4009</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item><item><title>宇宙線で物体内部を見るミュオグラフィの精度を向上</title><link>https://q-portal.riken.jp/topics/4011</link><description>ミュオンを使った内部密度測定の精度を大幅に向上！
-東京大学などの国際共同研究グループは、2台のテレスコープを同時運用する「リアルタイム正規化法」を実証しました。対象物と空のミュオン計数率の比を用いて気象や太陽活動による強度変動を補正し、従来法で約20％生じていた相対誤差を大幅に低減しました。火山や地下構造物、鉱山、CO₂地中貯留などの長期監視への応用が期待されます。</description><guid isPermaLink="false">4011</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>
+東京大学などの国際共同研究グループは、2台のテレスコープを同時運用する「リアルタイム正規化法」を実証しました。対象物と空のミュオン計数率の比を用いて気象や太陽活動による強度変動を補正し、従来法で約20％生じていた相対誤差を大幅に低減しました。火山や地下構造物、鉱山、CO₂地中貯留などの長期監視への応用が期待されます。</description><guid isPermaLink="false">4011</guid><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate></item><item><title>３つの粒子がつくる量子状態にも右手・左手 カーボンナノチューブでキラリティを持つ荷電励起子（トリオン）を観測</title><link>https://q-portal.riken.jp/topics/4013</link><description>カーボンナノチューブを用いて、構造の「右手・左手」の違いに由来するキラリティ特性が、多粒子からなる量子状態でも保持されることを世界で初めて明らかにしました。電子と正孔からなる励起子だけでなく、電子や正孔がさらに結合した正・負のトリオンでも、同様の円偏光特性が維持されることを実証しました。本成果は、多粒子間の相互作用を利用したキラリティ特性の増幅・制御につながり、量子情報処理や高効率な光エネルギー変換への応用が期待されます。</description><guid isPermaLink="false">4013</guid><pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate></item></channel></rss>
